@@ -28,6 +28,7 @@ def _minmax(X):
     lo, hi = X.min(axis=1, keepdims=True), X.max(axis=1, keepdims=True)
     rng = hi - lo
     with np.errstate(invalid="ignore", divide="ignore"):
+        # cost criteria: best 1, worst 0; ties 1 as in pymcdm
         n = np.where(rng > 0, (hi - X) / np.where(rng > 0, rng, 1), 1.0)
     return n
 
@@ -52,6 +53,7 @@ def promethee(X, W, q_share=0.1, p_share=0.5):
     q, p = q_share * rng, p_share * rng
     d = X[:, None, :, :] - X[:, :, None, :]           # d[n, i, j, c] = x_j - x_i: > 0 means i better
     with np.errstate(invalid="ignore", divide="ignore"):
+        # linear between q and p (pymcdm vshape_2)
         pref = np.where(rng > 0, np.clip((d - q) / np.where(rng > 0, p - q, 1), 0, 1), 0.0)
     pi = (pref * W[:, None, None, :]).sum(axis=3)     # (N, m, m)
     return (pi.sum(axis=2) - pi.sum(axis=1)) / (m - 1)
@@ -78,10 +80,12 @@ def smaa(X, W, method):
     N, m, k = X.shape
     acc = np.stack([(R == r + 1).mean(axis=0) for r in range(m)], axis=1)
     first = R == 1
+    # central weights: mean weights where i ranks first
     cw = np.array([W[first[:, i]].mean(axis=0) if first[:, i].any() else np.full(k, np.nan) for i in range(m)])
     conf = np.full(m, np.nan)
     for i in range(m):
         if np.isfinite(cw[i]).all():
+            # confidence: i first under its own central weights
             Ri = ranks(f(X, np.broadcast_to(cw[i], (N, k))))
             conf[i] = (Ri[:, i] == 1).mean()
     return acc, cw, conf

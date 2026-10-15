@@ -46,10 +46,10 @@ def matrices(leds, P, p, grid, view):
     criteria dicts of the central scenario (for the uncertainty table)."""
     by = {(l["scenario"], l["pathway"]): l for l in leds if l["grid"] == grid}
     paths = sorted({pw for (_, pw) in by if pw != "A0"})
-    paths = [pw for pw in paths if all(C.feasible(by[(s, pw)]) for s in SCEN)]
+    paths = [pw for pw in paths if all(C.feasible(by[(s, pw)]) for s in SCEN)]  # must meet limits in every scenario
     ev = {(s, pw): C.evaluate(by[(s, pw)], P, p, view) for s in SCEN for pw in paths}
     cost = np.stack([np.stack([ev[(s, pw)]["cost"] for pw in paths], axis=1) for s in SCEN], axis=2)  # (N, m, 3)
-    regret = (cost - cost.min(axis=1, keepdims=True)).max(axis=2)
+    regret = (cost - cost.min(axis=1, keepdims=True)).max(axis=2)  # minimax regret over scenarios, per sample
     cols = [np.stack([ev[("central", pw)][c] for pw in paths], axis=1) for c in CRIT[:-1]] + [regret]
     return paths, np.stack(cols, axis=2), {pw: ev[("central", pw)] for pw in paths}, regret
 
@@ -67,7 +67,9 @@ def main():
     W5 = mcda.dirichlet_weights(a.n, len(CRIT) - 1, seed=2)
     smaa_rows, named_rows, unc_rows, wmap = [], [], [], {}
     step = 0.02
+    # simplex grid of (cost, CO2) weights
     grid_w = [(wc, wo) for wc in np.arange(0, 1 + 1e-9, step) for wo in np.arange(0, 1 - wc + 1e-9, step)]
+    # remaining weight split over the other four
     Wm = np.array([[wc, wo] + [(1 - wc - wo) / 4] * 4 for wc, wo in grid_w])
     for g in grids:
         for view in ("dso", "system"):

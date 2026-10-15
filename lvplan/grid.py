@@ -41,11 +41,11 @@ class YearResult:
 def injection_matrix(fd, P, devices=None, device_P=None):
     """S (T, n) in MW/Mvar, generation positive. P: bus -> (P_load, Q_load, P_gen) from scenarios.
     device_P optionally replaces the active power of the controllable devices (curtailment)."""
-    T = max(len(np.atleast_1d(v)) for vals in P.values() for v in vals)
+    T = max(len(np.atleast_1d(v)) for vals in P.values() for v in vals)  # entries may be scalars or series
     n = len(fd.lv_buses)
     S = np.zeros((T, n), complex)
     for b, (pl, ql, pg) in P.items():
-        S[:, fd.pos[int(b)]] += pg - pl - 1j * ql
+        S[:, fd.pos[int(b)]] += pg - pl - 1j * ql  # fused buses share one position
     if device_P is not None:
         for (tech, b, d), p_new in zip(devices, device_P):
             S[:, fd.pos[int(b)]] += d.P - p_new          # put back the original, take the new
@@ -85,7 +85,7 @@ def run_year(fd, P, limits, devices=(), flex=None, battery=None, ront=None):
                 v_slack, tap = _choose_tap(fd, S, pf.solve(fd, S), limits, ront)
             V = pf.solve(fd, S, v_slack)
             Vm, ll, tl, S_hv, viol_new = check(fd, V, limits, v_slack)
-            if not (viol_new & ~viol).any():
+            if not (viol_new & ~viol).any():  # rebound created no new violations
                 viol = viol_new
                 break
             viol = viol | viol_new
@@ -96,7 +96,7 @@ def run_year(fd, P, limits, devices=(), flex=None, battery=None, ront=None):
         S[:, fd.busbar] += p_bat                 # discharge positive = generation at the busbar
         V = pf.solve(fd, S, v_slack)
         Vm, ll, tl, S_hv, viol = check(fd, V, limits, v_slack)
-    losses = np.real(S_hv) + np.real(S).sum(axis=1)
+    losses = np.real(S_hv) + np.real(S).sum(axis=1)  # import from MV + net LV injection
     return YearResult(Vm, ll, tl, losses, viol, curtailed, throughput, tap, S, v_slack)
 
 
@@ -107,6 +107,7 @@ def _choose_tap(fd, S, V0, limits, ront):
     Vm = np.abs(V0)
     taps = np.arange(-ront["n"], ront["n"] + 1) * ront["step"]
     lo, hi = Vm.min(axis=1), Vm.max(axis=1)
+    # worst-side margin for each tap; pick the max-min
     margin = np.stack([np.minimum(lo + t - limits.vmin, limits.vmax - hi - t) for t in taps], axis=1)
     best = taps[np.argmax(margin, axis=1)]
     return 1.0 + best, best
@@ -117,7 +118,7 @@ def _curtail_kernel(P, rating, viol, floor_mw, dt):
     out = P.copy()
     cut = 0.0
     for i in range(P.shape[0]):
-        debt = 0.0
+        debt = 0.0  # energy owed to device i (MWh)
         for k in range(P.shape[1]):
             if viol[k]:
                 if out[i, k] > floor_mw:
@@ -126,7 +127,7 @@ def _curtail_kernel(P, rating, viol, floor_mw, dt):
                     cut += e
                     out[i, k] = floor_mw
             elif debt > 0:
-                extra = min(rating[i] - out[i, k], debt / dt)
+                extra = min(rating[i] - out[i, k], debt / dt)  # repay up to the device rating
                 if extra > 0:
                     out[i, k] += extra
                     debt -= extra * dt
@@ -137,7 +138,7 @@ def _curtail(devices, viol, floor_mw):
     """Paragraph 14a: in violated steps each device is limited to floor_mw; the energy it could not
     take is delivered in the next steps without a violation, at up to its rating."""
     P = np.array([d.P for _, _, d in devices])
-    rating = np.array([max(d.size_mw, d.P.max()) for _, _, d in devices])
+    rating = np.array([max(d.size_mw, d.P.max()) for _, _, d in devices])  # some profiles exceed nominal size
     out, cut = _curtail_kernel(P, rating, np.asarray(viol, np.bool_), float(floor_mw), DT_H)
     return list(out), cut
 
@@ -150,7 +151,7 @@ def _battery(S_hv, sn_mva, bat):
     P, Q = np.real(S_hv), np.imag(S_hv)
     lim = np.sqrt(np.maximum((0.95 * sn_mva) ** 2 - Q ** 2, 0.0))
     e_max, p_max = bat["e_mwh"], bat["p_mw"]
-    soc = e_max
+    soc = e_max  # start full, recharge between peaks
     out = np.zeros(len(P))
     thr = 0.0
     for k, p in enumerate(P):

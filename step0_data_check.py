@@ -42,7 +42,7 @@ def main():
     rows = []
     for grid in P["planning"]["grids"]:
         f = Feeder(grid)
-        assert f.T == 35136 and all(np.isfinite(v).all() for v in f.base_P.values())
+        assert f.T == 35136 and all(np.isfinite(v).all() for v in f.base_P.values())  # 2016: 366 days x 96
         fd = pf.build(f.net)
         band = P["planning"]["voltage_band"]["without_ront"]
         lim = G.Limits(band["min"], band["max"])

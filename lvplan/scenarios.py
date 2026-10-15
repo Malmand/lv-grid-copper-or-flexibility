@@ -75,7 +75,7 @@ def s_curve(year, y2030, y2045, y0, year0=2025):
     # logistic with saturation 1 through the two anchor points
     a1 = np.log(y2030 / (1 - y2030))
     a2 = np.log(y2045 / (1 - y2045))
-    k = (a2 - a1) / 15
+    k = (a2 - a1) / 15  # logit slope through both anchors (2030, 2045)
     return float(1 / (1 + np.exp(-(a1 + k * (year - 2030)))))
 
 
@@ -93,21 +93,21 @@ class Feeder:
         loads = self.net.load
         self.households = loads.index[loads.profile.astype(str).str.startswith("H0")].to_numpy()
         pv_buses = set(self.net.sgen.bus)
-        self.pv0 = np.mean([loads.bus[h] in pv_buses for h in self.households])
+        self.pv0 = np.mean([loads.bus[h] in pv_buses for h in self.households])  # PV share already in SimBench
         rng = np.random.default_rng(seed)
         lib = library()
         self.order, self.device = {}, {}
         for tech in TECH:
             cand = self.households if tech != "pv" else np.array(
                 [h for h in self.households if loads.bus[h] not in pv_buses])
-            self.order[tech] = rng.permutation(cand)
+            self.order[tech] = rng.permutation(cand)  # fixed order: scenarios and years nested
             pool = getattr(lib, tech)
-            self.device[tech] = {h: pool[rng.integers(len(pool))] for h in cand}
+            self.device[tech] = {h: pool[rng.integers(len(pool))] for h in cand}  # device drawn once per household
 
     def adopters(self, tech, share):
         n_hh = len(self.households)
         if tech == "pv":
-            k = int(round(max(share - self.pv0, 0) * n_hh))
+            k = int(round(max(share - self.pv0, 0) * n_hh))  # only PV beyond today's
         else:
             k = int(round(share * n_hh))
         return self.order[tech][:min(k, len(self.order[tech]))]

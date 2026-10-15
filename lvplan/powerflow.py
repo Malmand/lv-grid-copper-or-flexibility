@@ -35,10 +35,10 @@ class Feeder:
 
 def build(net):
     """Matrices of the feeder from pandapower (one power flow to set up the internal model)."""
-    pp.runpp(net, numba=True)
+    pp.runpp(net, numba=True)  # one AC solve only to get pandapower's internal Ybus
     ppc = net._ppc
-    Y = ppc["internal"]["Ybus"].toarray()
-    lookup = net._pd2ppc_lookups["bus"]
+    Y = ppc["internal"]["Ybus"].toarray()  # dense: feeders have ~100 buses
+    lookup = net._pd2ppc_lookups["bus"]  # pandapower bus -> internal bus
     slack_pd = int(net.ext_grid.bus.iloc[0])
     s = lookup[slack_pd]
     lv_pd = net.bus.index[(net.bus.vn_kv < 1.0) & net.bus.in_service].to_numpy()
@@ -58,13 +58,13 @@ def build(net):
     lf, lt, ly, lim = [], [], [], []
     for _, ln in net.line[net.line.in_service].iterrows():
         f, t = where[lookup[ln.from_bus]], where[lookup[ln.to_bus]]
-        zb = vn[ln.from_bus] ** 2 / base
+        zb = vn[ln.from_bus] ** 2 / base  # base impedance (ohm)
         z = (ln.r_ohm_per_km + 1j * ln.x_ohm_per_km) * ln.length_km / ln.parallel / zb
         ib = base / (np.sqrt(3) * vn[ln.from_bus])          # kA
         lf.append(f)
         lt.append(t)
         ly.append(1 / z)
-        lim.append(ln.max_i_ka * ln.parallel * ln.df / ib)
+        lim.append(ln.max_i_ka * ln.parallel * ln.df / ib)  # same derating (df) as pandapower
     tr = net.trafo.iloc[0]
     busbar = where[lookup[tr.lv_bus]]
     pos = {int(b): where[lookup[b]] for b in lv_pd}
@@ -79,10 +79,10 @@ def solve(fd: Feeder, S, v_slack=1.0, tol=1e-8, max_iter=60):
     Spu = np.asarray(S) / fd.base_mva
     vs = np.broadcast_to(np.asarray(v_slack, float), (Spu.shape[0],))[:, None]
     w = fd.w[None, :] * vs
-    V = w.copy()
+    V = w.copy()  # flat start at no-load voltages
     ZT = fd.Z.T
     for _ in range(max_iter):
-        Vn = np.conj(Spu / V) @ ZT + w
+        Vn = np.conj(Spu / V) @ ZT + w  # all time steps in one matrix product
         if np.max(np.abs(Vn - V)) < tol:
             return Vn
         V = Vn
@@ -98,5 +98,5 @@ def flows(fd: Feeder, V, v_slack=1.0):
     vs = np.broadcast_to(np.asarray(v_slack, float), (V.shape[0],))
     # complex power drawn from the slack bus: S = V_s conj(Y_SS V_s + Y_SL V)
     S_hv = vs * np.conj(fd.Y_SS * vs + V @ fd.Y_SL)
-    trafo_loading = np.abs(S_hv) * fd.base_mva / fd.trafo_sn_mva / vs
+    trafo_loading = np.abs(S_hv) * fd.base_mva / fd.trafo_sn_mva / vs  # current-based, as in pandapower
     return line_loading, line_loss, trafo_loading, S_hv * fd.base_mva

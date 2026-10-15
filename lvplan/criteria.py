@@ -81,7 +81,7 @@ def evaluate(led, P, p, view="dso"):
     disc = (1 + r) ** -(YEARS - 2024)[None, :]     # (N, 21) cash flows at the end of each year, PV in 2025
 
     def pv_annuity(invest, year, life):
-        crf = p["r"] / (1 - (1 + p["r"]) ** -life)
+        crf = p["r"] / (1 - (1 + p["r"]) ** -life)  # capital recovery factor
         return invest * crf * (disc * (YEARS >= year)[None, :]).sum(axis=1)
 
     def share_in_horizon(year, life):
@@ -104,11 +104,12 @@ def evaluate(led, P, p, view="dso"):
         if a["kind"] == "cable":
             sec = a["mm2"] / 150
             out["capex_cable"] += pv_annuity(a["qty"] * km_cost, y, p["life"])
+            # scaled by conductor section
             out["co2_embodied"] += a["qty"] * p["cable_co2"] * sec * share_in_horizon(y, p["life"])
             out["metals_t"] += a["qty"] * al_km * sec / 1000
             trench_km += a["qty"]
         elif a["kind"] in ("transformer", "ront"):
-            scale = (a["mva"] / 0.63) ** expo
+            scale = (a["mva"] / 0.63) ** expo  # mass vs rating, from EPD masses
             key = "capex_transformer" if a["kind"] == "transformer" else "capex_ront"
             out[key] += pv_annuity(swap if a["kind"] == "transformer" else ront, y, p["life"])
             emb = m630 * scale * p["trafo_co2_per_kg"] + p["trafo_co2_other"]
@@ -122,6 +123,7 @@ def evaluate(led, P, p, view="dso"):
         else:
             raise ValueError(a["kind"])
     op = operation(led)
+    # battery round-trip loss not in the power flow
     losses = op["losses_mwh"] + lca["battery_loss_share_of_throughput"]["value"] * op["battery_throughput_mwh"]
     g0 = lca["grid_kgco2_per_kwh_2024"]["value"]
     zy = p["zero_year"][:, None]

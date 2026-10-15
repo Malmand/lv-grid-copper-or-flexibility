@@ -48,6 +48,7 @@ def _limits(P, ront):
 
 def _section_mm2(std_type):
     s = str(std_type)
+    # 'NAYY 4x150SE 0.6/1kV' -> 150
     return float(s.split("x")[1].split("S")[0].split(" ")[0]) if "x" in s else 150.0
 
 
@@ -78,7 +79,7 @@ def _choose_action(net, fd, graph, Vm, ll, tl, limits):
         return "trafo", None
     if ll.max() > limits.thermal:
         return "line", int(np.unravel_index(np.argmax(ll), ll.shape)[1])
-    dev = np.maximum(limits.vmin - Vm, Vm - limits.vmax)
+    dev = np.maximum(limits.vmin - Vm, Vm - limits.vmax)  # depth outside the voltage band
     ks, bpos = np.unravel_index(np.argmax(dev), dev.shape)
     bus = int(fd.lv_buses[bpos])
     busbar = int(net.trafo.lv_bus.iloc[0])
@@ -87,6 +88,7 @@ def _choose_action(net, fd, graph, Vm, ll, tl, limits):
     cand = [i for i, ln in enumerate(net.line.itertuples()) if (ln.from_bus, ln.to_bus) in on_path]
     if not cand:
         return None, "voltage at busbar"
+    # largest drop ~ loading x impedance
     return "line", cand[int(np.argmax([ll[ks, i] * np.abs(1 / fd.line_y[i]) for i in cand]))]
 
 
@@ -100,6 +102,7 @@ def _reinforce(ledger, net, inj, devices, year, limits, opts, max_rounds=10, max
     for _ in range(max_rounds):
         if not r.viol_steps.any():
             return fd, r
+        # near-violations kept so the fix holds with margin
         near = r.viol_steps | (r.trafo_loading > 0.9 * limits.thermal) | (r.line_loading > 0.9 * limits.thermal).any(axis=1) \
             | (r.V < limits.vmin + 0.01).any(axis=1) | (r.V > limits.vmax - 0.005).any(axis=1)
         crit = np.flatnonzero(near)
@@ -109,6 +112,7 @@ def _reinforce(ledger, net, inj, devices, year, limits, opts, max_rounds=10, max
         for _ in range(max_steps):
             V = pf.solve(fd, S_c, vs_c)
             if "ront" in opts:
+                # re-tap after every copper change
                 vs_c, _ = G._choose_tap(fd, S_c, pf.solve(fd, S_c), limits, opts["ront"])
                 V = pf.solve(fd, S_c, vs_c)
             Vm, ll, tl, _, viol = G.check(fd, V, limits, vs_c)
@@ -174,12 +178,12 @@ def plan(feeder, P, scenario, pathway, central=None):
     battery = {"e_mwh": 0.0, "p_mw": 0.0}
     floor = P["cost"]["flexibility_floor_kw"]["value"] / 1000
     for i, year in enumerate(YEARS):
-        target = min(year + 5, YEARS[-1])
+        target = min(year + 5, YEARS[-1])  # plan five years ahead
         inj, devices, _, _ = feeder.injections(target, adoption)
-        if pathway == "A2" and year == YEARS[0]:
+        if pathway == "A2" and year == YEARS[0]:  # A2: build for 2045 central in 2025
             inj_c, dev_c, _, _ = feeder.injections(YEARS[-1], P["adoption"]["central"])
             _reinforce(led, net, inj_c, dev_c, year, _limits(P, False), {})
-        if pathway == "A5" and not use_ront:
+        if pathway == "A5" and not use_ront:  # A5: rONT at first violation left by flex
             fd = pf.build(net)
             r = G.run_year(fd, inj, _limits(P, False), devices, flex={"floor_mw": floor})
             if r.viol_steps.any():
@@ -195,7 +199,7 @@ def plan(feeder, P, scenario, pathway, central=None):
         if pathway == "A4":
             fd = pf.build(net)
             p_need, e_need = _battery_size(fd, inj, limits, devices, opts)
-            if p_need > battery["p_mw"] or e_need > battery["e_mwh"]:
+            if p_need > battery["p_mw"] or e_need > battery["e_mwh"]:  # battery only grows, never replaced
                 add_p, add_e = max(p_need - battery["p_mw"], 0), max(e_need - battery["e_mwh"], 0)
                 battery = {"p_mw": max(p_need, battery["p_mw"]), "e_mwh": max(e_need, battery["e_mwh"])}
                 led.assets.append(dict(year=year, kind="battery", qty=add_e * 1000, unit="kWh", kw=add_p * 1000))

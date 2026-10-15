@@ -30,7 +30,7 @@ def _clean(o):
         return {k: _clean(v) for k, v in o.items()}
     if isinstance(o, (list, tuple)):
         return [_clean(v) for v in o]
-    if isinstance(o, (np.floating, np.integer)):
+    if isinstance(o, (np.floating, np.integer)):  # numpy scalars are not JSON-serialisable
         return o.item()
     return o
 
@@ -68,6 +68,7 @@ def main():
     with Pool(a.workers) as pool:
         for res in pool.imap_unordered(run_case, todo):
             new = {(d["grid"], d["scenario"], d["pathway"]) for d in res}
+            # replace re-planned cases
             done = [d for d in done if (d["grid"], d["scenario"], d["pathway"]) not in new] + res
             OUT.write_text(json.dumps(done, indent=0))
 
