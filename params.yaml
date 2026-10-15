@@ -1,0 +1,135 @@
+# Every input with its unit, value, uncertainty range and source.
+# Ranges are sampled in the uncertainty analysis (mcda.py). Prices are in EUR of 2025.
+# Sources older than five years are escalated to 2025 with a price index, and the spread between
+# indices becomes part of the range (see "escalation").
+
+escalation:
+  note: >-
+    Cable and transformer costs come from studies with 2012 and 2016 price levels. They are brought to
+    2025 with the German civil-engineering price index for local underground works (Ortskanaele),
+    because most of the cost of a low-voltage cable is trenching. The low end of the range uses the
+    consumer price index instead; the high end the Berlin series of the same construction index.
+  from_2016:
+    value: 1.88
+    low: 1.28
+    high: 2.06
+    source: >-
+      central: Ortskanaele index, 2016 to 2021 x1.387 (Amt fuer Statistik Berlin-Brandenburg, SB M01-04-00
+      2025q04, 2021=100: 72.1 -> 100) times 2021 to 2025 x1.356 (Destatis national series, 2021=100:
+      100 -> 135.6, via Senator fuer Finanzen Bremen, Preisindizes Hoch-/Tiefbau, Jan 2026);
+      low: consumer price index Germany 2020=100, 95.0 (2016) -> 121.9 (2025);
+      high: Berlin Ortskanaele series 72.1 -> 148.5
+
+cost:
+  cable_eur_per_km:                # new LV cable laid in its own trench, incl. civil works
+    rural: {value_2016: 80000, source: "Verteilnetzstudie Baden-Wuerttemberg (2017), Table 7.1, NS Kabel incl. Erdarbeiten"}
+    semi_urban: {value_2016: 100000, source: "same"}
+    urban: {value_2016: 120000, source: "same"}
+    cross_check: "dena-Verteilnetzstudie (2012), Table 6.1: 60 (<= 500 inhabitants/km2) and 100 kEUR/km (> 500), 2012 prices"
+  copper_cost_source_factor:
+    value: 1.0
+    low: 0.8
+    high: 1.0
+    source: >-
+      spread between the two studies: dena 2012 (2010 price base) gives 60 / 100 kEUR per km and 10 kEUR per
+      transformer swap against 80-120 and 15 kEUR in BW 2017; after escalation to a common base dena is about
+      0.8 of BW. BW, the newer study, is the central value; applied to cables and transformer swaps
+  transformer_swap_eur:
+    value_2016: 15000
+    source: "Verteilnetzstudie BW (2017), Table 7.1, NS Transformatortausch (transformer + secondary equipment); dena 2012: 10 kEUR"
+  ront_eur:
+    value_2016: 45000
+    source: "Verteilnetzstudie BW (2017), Table 7.1, regelbarer Ortsnetztransformator (transformer + secondary equipment)"
+  battery_eur_per_kwh:
+    value: 250.0
+    low: 175.0
+    high: 325.0
+    source: "PyPSA technology-data, costs_2025.csv, 'battery storage' investment (Danish Energy Agency catalogue); range +-30 %"
+  battery_inverter_eur_per_kw:
+    value: 287.5
+    low: 201.0
+    high: 374.0
+    source: "PyPSA technology-data, costs_2025.csv, 'battery inverter' investment (Danish Energy Agency); range +-30 %"
+  battery_life_years: {value: 15, low: 10, high: 22.5, source: "DEA: storage 22.5 y, inverter 10 y; 15 y as a whole-system value"}
+  flexibility_eur_per_device_year:
+    value: 150.0
+    low: 110.0
+    high: 190.0
+    source: >-
+      Bundesnetzagentur, decision on paragraph 14a EnWG (press release 27 Nov 2023): flat network-fee
+      reduction of 110 to 190 EUR (gross) per year per controllable device (module 1), in exchange for
+      which the operator may limit the device to 4.2 kW during a specific overload
+  flexibility_floor_kw: {value: 4.2, source: "Bundesnetzagentur, paragraph 14a EnWG: consumption may be reduced to 4.2 kW"}
+  loss_price_eur_per_mwh: {value: 100.0, low: 60.0, high: 150.0, source: "assumption: price at which the operator buys loss energy"}
+  discount_rate: {value: 0.05, low: 0.03, high: 0.07, source: "assumption: real discount rate"}
+  asset_life_years: {value: 40, low: 35, high: 45, source: "assumption, in line with depreciation periods for LV cables and distribution transformers (StromNEV Annex 1)"}
+
+lca:   # cradle to grave without credits (EN 15804 modules A1-A5 and C1-C4, module D excluded)
+  cable_kgco2_per_km_nayy150:
+    value: 27000
+    low: 13700
+    high: 40400
+    source: >-
+      low: Nexans PEP ecopassport NXNS-00039-V03.02-FR (12-2024), U-1000 AR2V aluminium, extrapolation rule
+      A1-A5 + C = 4.656 kg/kg x mass - 699, at 3,096 kg/km for 4x150 (low-carbon aluminium);
+      high: Hellenic Cables EPD-IES-0016993 (2024), NAYY 0.6/1 kV 4x240, A1-A3 54.3 + A4 1.20 + A5 1.94 +
+      C 7.16 kg CO2e per m, scaled by conductor section (150/240); central: mean
+  cable_al_kg_per_km_nayy150: {value: 1620, source: "4 x 150 mm2 aluminium x 2,700 kg/m3; Hellenic EPD: 2.4 kg Al per m for 4x240 (2.59 by the same calculation)"}
+  transformer_kgco2_per_kg:
+    value: 5.5
+    low: 3.7
+    high: 8.5
+    source: >-
+      A1-A3 per kg of transformer from three verified EPDs of 630 kVA units: Cotradis EPD Italy 0363 (2022):
+      11,900 kg / 2,182 kg = 5.5; Cotradis EPDITALY1320 (2026): 7,300 / 1,964 = 3.7; IMEFY (2022, 24 kV):
+      21,700 / 2,550 = 8.5
+  transformer_other_kgco2:
+    value: 500
+    low: 250
+    high: 950
+    source: "A4 + A5 + C per unit, Cotradis EPD Italy 0363 (about 250) and EPDITALY1320 (about 945)"
+  transformer_mass_kg_630: {value: 2182, source: "Cotradis EPD Italy 0363, 630 kVA oil-immersed"}
+  transformer_mass_exponent: {value: 0.7, source: "fitted to IMEFY EPD masses, 630 to 2,000 kVA at 24 kV (2,550 -> 5,550 kg: exponent 0.67)"}
+  transformer_al_kg_630: {value: 332, source: "Cotradis EPD Italy 0363 (aluminium foil and wire)"}
+  transformer_cu_kg_630: {value: 6.2, source: "same"}
+  battery_kgco2_per_kwh:
+    value: 83.5
+    low: 61.0
+    high: 106.0
+    source: "IVL Swedish Environmental Research Institute (2019), Lithium-ion vehicle battery production, 61-106 kg CO2e per kWh"
+  battery_cu_kg_per_kwh:
+    value: 0.42
+    source: >-
+      IEA HEV TCP Task 40 (2024), Critical raw materials for electric vehicles, Table 2: copper 0.42 kg per kWh
+      for LFP (JR battery LCA model, GREET 2022); inside the 0.18-0.90 kg/kWh range of the CATL cell EPD below
+  battery_al_kg_per_kwh:
+    value: 0.54
+    low: 0.18
+    high: 0.90
+    source: >-
+      CATL EPD EPDITALY0392 (2023), LFP prismatic cell 280 Ah: 6.027 kg per kWh with 3-15 % aluminium (the EPD
+      gives ranges only); central = mid-range. Cells only: racks, housing and container are not counted, so
+      the metal use of the battery pathway is a lower bound. The same EPD gives 54 kg CO2e per kWh for
+      A1-A3 of the cell, consistent with the lower end of the IVL range used for the battery
+  battery_loss_share_of_throughput:
+    value: 0.0417
+    source: "92 % charging efficiency (grid.py): with a cyclic state of charge, loss = 0.08 / 1.92 of throughput"
+  grid_kgco2_per_kwh_2024: {value: 0.363, source: "Umweltbundesamt, CO2 emissions per kWh of electricity 2024 (estimate)"}
+  grid_zero_year: {value: 2045, low: 2040, high: 2050, source: "Climate Protection Act (KSG): climate neutrality by 2045; linear decline assumed"}
+
+planning:
+  years: [2025, 2030, 2035, 2040, 2045]
+  voltage_band:
+    without_ront: {min: 0.915, max: 1.05, source: "Verteilnetzstudie BW (2017), Fig. 6.9: LV network and MV/LV transformer together may use 8.5 % drop and 5 % rise"}
+    with_ront: {min: 0.9125, max: 1.0875, tap_step: 0.025, tap_range: 4, source: "EN 50160 +-10 % at the customer minus half a tap step; BW Fig. 6.10 (rONT decouples LV from MV)"}
+  thermal_limit: 1.0
+  grids:
+    rural: 1-LV-rural2
+    semi_urban: 1-LV-semiurb5
+    urban: 1-LV-urban6
+
+adoption:   # share of households (H0 loads) with each technology; SimBench scenario 0 is the start
+  note: "scenario assumptions, not forecasts; 2030 central values are near the German government targets (15 M EVs, about 6 M heat pumps)"
+  low:     {hp: {2030: 0.10, 2045: 0.50}, ev: {2030: 0.15, 2045: 0.60}, pv: {2030: 0.20, 2045: 0.35}}
+  central: {hp: {2030: 0.20, 2045: 0.75}, ev: {2030: 0.30, 2045: 0.85}, pv: {2030: 0.25, 2045: 0.50}}
+  high:    {hp: {2030: 0.30, 2045: 0.95}, ev: {2030: 0.40, 2045: 0.95}, pv: {2030: 0.35, 2045: 0.70}}

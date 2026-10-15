@@ -1,0 +1,7862 @@
+[
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9664220536308357,
+"v_max": 1.0235769238847883,
+"line_max": 0.42720068710345527,
+"trafo_max": 0.5116404422043085,
+"losses_mwh": 9.22095611070915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9503286810450153,
+"v_max": 1.0251901003827106,
+"line_max": 0.5645184293654316,
+"trafo_max": 0.752266991917003,
+"losses_mwh": 9.65415478750445,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.25,
+"viol_hours": 5.25,
+"v_min": 0.9167020526035251,
+"v_max": 1.0329255500568082,
+"line_max": 0.856467011964198,
+"trafo_max": 1.32449111064399,
+"losses_mwh": 11.225727095873445,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.25,
+"viol_hours": 47.25,
+"v_min": 0.8769439394348285,
+"v_max": 1.035231527148338,
+"line_max": 1.0580535286432213,
+"trafo_max": 1.750875029202439,
+"losses_mwh": 13.51628569061221,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A1",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9664220536308357,
+"v_max": 1.0235769238847883,
+"line_max": 0.42720068710345527,
+"trafo_max": 0.5116404422043085,
+"losses_mwh": 9.22095611070915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9572055334647345,
+"v_max": 1.0237465353982322,
+"line_max": 0.5605678554780368,
+"trafo_max": 0.46797916016207813,
+"losses_mwh": 11.911338594120377,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9421838163603038,
+"v_max": 1.0275842429381497,
+"line_max": 0.781422283642062,
+"trafo_max": 0.5153695906149808,
+"losses_mwh": 16.859745738023314,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.916733085880893,
+"v_max": 1.0291238803466471,
+"line_max": 0.9880749057164605,
+"trafo_max": 0.6745827178129503,
+"losses_mwh": 18.397154701824142,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.987901372740954,
+"v_max": 1.0070164899641538,
+"line_max": 0.16019776293242408,
+"trafo_max": 0.1431951498744646,
+"losses_mwh": 14.927604433163282,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9835966267233731,
+"v_max": 1.012958221492083,
+"line_max": 0.2469501160661273,
+"trafo_max": 0.20239192359003685,
+"losses_mwh": 15.294388554348512,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9752890510258887,
+"v_max": 1.01375502017503,
+"line_max": 0.30414538629244536,
+"trafo_max": 0.2952605051444608,
+"losses_mwh": 15.521163256385377,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9599724860346267,
+"v_max": 1.0179426277951833,
+"line_max": 0.5109197714578808,
+"trafo_max": 0.5123664705006498,
+"losses_mwh": 16.317046546928083,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9410263943923127,
+"v_max": 1.019041133248812,
+"line_max": 0.7014134373621068,
+"trafo_max": 0.6697699499800499,
+"losses_mwh": 17.522856672113363,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A3",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 23,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9664220536308357,
+"v_max": 1.0235769238847883,
+"line_max": 0.42720068710345527,
+"trafo_max": 0.5116404422043085,
+"losses_mwh": 9.22095611070915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 41,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9572055334647345,
+"v_max": 1.0237465353982322,
+"line_max": 0.5605678554780368,
+"trafo_max": 0.46797916016207813,
+"losses_mwh": 11.911338594120377,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 69,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9428832780688673,
+"v_max": 1.0273363499044228,
+"line_max": 0.7497315670618891,
+"trafo_max": 0.5152016131039799,
+"losses_mwh": 16.83070105817742,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 101,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.917659286753125,
+"v_max": 1.0288696271772029,
+"line_max": 0.9692106975040782,
+"trafo_max": 0.6743179677981228,
+"losses_mwh": 18.349738502707755,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A4",
+"assets": [
+{
+"year": 2035,
+"kind": "battery",
+"qty": 91.56719649899968,
+"unit": "kWh",
+"kw": 115.60492019610317
+},
+{
+"year": 2040,
+"kind": "battery",
+"qty": 276.02960627614675,
+"unit": "kWh",
+"kw": 137.1581687212549
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9664220536308357,
+"v_max": 1.0235769238847883,
+"line_max": 0.42720068710345527,
+"trafo_max": 0.5116404422043085,
+"losses_mwh": 9.22095611070915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9503286810450153,
+"v_max": 1.0251901003827106,
+"line_max": 0.5645184293654316,
+"trafo_max": 0.752266991917003,
+"losses_mwh": 9.65415478750445,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9394346206983804,
+"v_max": 1.0247507636330855,
+"line_max": 0.7073864029425392,
+"trafo_max": 0.9489621664022048,
+"losses_mwh": 10.600117475118738,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.4436318551477391
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9157859974142849,
+"v_max": 1.026706899312893,
+"line_max": 0.9318813588333272,
+"trafo_max": 0.9499546384498793,
+"losses_mwh": 12.457341611778146,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 4.763327123115341
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9442640330014691,
+"v_max": 1.0253862536854348,
+"line_max": 0.6208551374676579,
+"trafo_max": 0.8875571065803708,
+"losses_mwh": 9.78013652793405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.25,
+"viol_hours": 13.75,
+"v_min": 0.8994767775818663,
+"v_max": 1.0342394757958215,
+"line_max": 0.9061682475841196,
+"trafo_max": 1.4963678273088599,
+"losses_mwh": 12.017649505775431,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.25,
+"viol_hours": 73.75,
+"v_min": 0.8490805362542365,
+"v_max": 1.0422201676894427,
+"line_max": 1.4128304898415944,
+"trafo_max": 2.1243700127717653,
+"losses_mwh": 15.116279485656298,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.25,
+"viol_hours": 156.5,
+"v_min": 0.8094098225622794,
+"v_max": 1.0498779360525925,
+"line_max": 1.7293139225166496,
+"trafo_max": 2.638511044453369,
+"losses_mwh": 18.12241521346815,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A1",
+"assets": [
+{
+"year": 2030,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9522340108506974,
+"v_max": 1.023875699485215,
+"line_max": 0.6158007270172855,
+"trafo_max": 0.5513193062496238,
+"losses_mwh": 12.01029810581003,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9399257106136366,
+"v_max": 1.0244913374881146,
+"line_max": 0.6510672223831063,
+"trafo_max": 0.5780381099477572,
+"losses_mwh": 17.042765908559673,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.930390326300038,
+"v_max": 1.0233290116193352,
+"line_max": 0.8498462226392846,
+"trafo_max": 0.8021307446040532,
+"losses_mwh": 18.308502871961466,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9163042198424282,
+"v_max": 1.02778442487091,
+"line_max": 0.9647342586235632,
+"trafo_max": 0.9729562391070637,
+"losses_mwh": 19.81418049733721,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.987901372740954,
+"v_max": 1.0070164899641538,
+"line_max": 0.16019776293242408,
+"trafo_max": 0.1431951498744646,
+"losses_mwh": 14.927604433163282,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.972559860835141,
+"v_max": 1.0138400447594287,
+"line_max": 0.3595183781810933,
+"trafo_max": 0.3473135746605503,
+"losses_mwh": 15.589281275686417,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9502914652917042,
+"v_max": 1.0185916485794724,
+"line_max": 0.625244992048197,
+"trafo_max": 0.5767614368118746,
+"losses_mwh": 16.737165440802585,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.930390326300038,
+"v_max": 1.0233290116193352,
+"line_max": 0.8498462226392846,
+"trafo_max": 0.8021307446040532,
+"losses_mwh": 18.308502871961466,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9163042198424282,
+"v_max": 1.02778442487091,
+"line_max": 0.9647342586235632,
+"trafo_max": 0.9729562391070637,
+"losses_mwh": 19.81418049733721,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A3",
+"assets": [
+{
+"year": 2030,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 46,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9609945326433182,
+"v_max": 1.021269268922566,
+"line_max": 0.5061777775371831,
+"trafo_max": 0.3486252790364587,
+"losses_mwh": 15.835326551129507,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 79,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9399257106136366,
+"v_max": 1.0244913374881146,
+"line_max": 0.6510672223831063,
+"trafo_max": 0.5780381099477572,
+"losses_mwh": 17.042765908559673,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 117,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9293115615011452,
+"v_max": 1.0249836457814305,
+"line_max": 0.7172535446739859,
+"trafo_max": 0.8022904232230931,
+"losses_mwh": 18.357650558320685,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 147,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9161210429511296,
+"v_max": 1.0295775944159438,
+"line_max": 0.8968333693828707,
+"trafo_max": 0.961877745520677,
+"losses_mwh": 19.89011130584161,
+"curtailed_mwh": 0.18765110585000008,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A4",
+"assets": [
+{
+"year": 2030,
+"kind": "battery",
+"qty": 177.4534327773193,
+"unit": "kWh",
+"kw": 169.70007140144097
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "battery",
+"qty": 444.80489777572507,
+"unit": "kWh",
+"kw": 209.60959016261918
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "battery",
+"qty": 454.9769778878664,
+"unit": "kWh",
+"kw": 202.08848134501727
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.018539,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0328141,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0153769,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0219351,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.95131531182331,
+"v_max": 1.0219683903139343,
+"line_max": 0.6172009079288122,
+"trafo_max": 0.884788366519446,
+"losses_mwh": 9.582049273497633,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9295712414197147,
+"v_max": 1.0235745381456114,
+"line_max": 0.6386925555348368,
+"trafo_max": 0.9499278039734446,
+"losses_mwh": 11.07256762463832,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 1.1878347217694545
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9274910626854058,
+"v_max": 1.0244989571059753,
+"line_max": 0.8510159049242869,
+"trafo_max": 0.9499910737961315,
+"losses_mwh": 12.961662054980085,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 10.786553685185403
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9153646344121065,
+"v_max": 1.0292716716248265,
+"line_max": 0.9634646393416765,
+"trafo_max": 0.949974403230039,
+"losses_mwh": 14.951400832345174,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 26.47754420452587
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9759097475908081,
+"v_max": 1.008557758742361,
+"line_max": 0.3732547720377349,
+"trafo_max": 0.3366816974101819,
+"losses_mwh": 15.990688358519167,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9730667548879323,
+"v_max": 1.0090029359659516,
+"line_max": 0.45921813533950717,
+"trafo_max": 0.4297645205432317,
+"losses_mwh": 16.240585027681938,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9682283409662289,
+"v_max": 1.0100528899810433,
+"line_max": 0.5284025467219359,
+"trafo_max": 0.6024321835224992,
+"losses_mwh": 16.846594608821114,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9577485959091001,
+"v_max": 1.011211686846569,
+"line_max": 0.6838108206135886,
+"trafo_max": 0.738017909902489,
+"losses_mwh": 17.805368084165405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A1",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9759097475908081,
+"v_max": 1.008557758742361,
+"line_max": 0.3732547720377349,
+"trafo_max": 0.3366816974101819,
+"losses_mwh": 15.990688358519167,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9730667548879323,
+"v_max": 1.0090029359659516,
+"line_max": 0.45921813533950717,
+"trafo_max": 0.4297645205432317,
+"losses_mwh": 16.240585027681938,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9682283409662289,
+"v_max": 1.0100528899810433,
+"line_max": 0.5284025467219359,
+"trafo_max": 0.6024321835224992,
+"losses_mwh": 16.846594608821114,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9577485959091001,
+"v_max": 1.011211686846569,
+"line_max": 0.6838108206135886,
+"trafo_max": 0.738017909902489,
+"losses_mwh": 17.805368084165405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9796836599239628,
+"v_max": 1.0064208435653281,
+"line_max": 0.3050172960609064,
+"trafo_max": 0.23714955930701292,
+"losses_mwh": 18.467247940585015,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9778720806807001,
+"v_max": 1.0083291783664867,
+"line_max": 0.37279028114914964,
+"trafo_max": 0.2653013462636744,
+"losses_mwh": 18.727491440278534,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9746083809876116,
+"v_max": 1.008731934409321,
+"line_max": 0.4584809475222201,
+"trafo_max": 0.33839081314443187,
+"losses_mwh": 18.953844232883498,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9708282787395066,
+"v_max": 1.0097261650694982,
+"line_max": 0.5271771678518737,
+"trafo_max": 0.47381691124919423,
+"losses_mwh": 19.506923018968457,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9616184032621843,
+"v_max": 1.0108397160592615,
+"line_max": 0.681770197697764,
+"trafo_max": 0.5799816979873899,
+"losses_mwh": 20.390734210809306,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A3",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 23,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9759097475908081,
+"v_max": 1.008557758742361,
+"line_max": 0.3732547720377349,
+"trafo_max": 0.3366816974101819,
+"losses_mwh": 15.990688358519167,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 41,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9730667548879323,
+"v_max": 1.0090029359659516,
+"line_max": 0.45921813533950717,
+"trafo_max": 0.4297645205432317,
+"losses_mwh": 16.240585027681938,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 69,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9682283409662289,
+"v_max": 1.0100528899810433,
+"line_max": 0.5284025467219359,
+"trafo_max": 0.6024321835224992,
+"losses_mwh": 16.846594608821114,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 101,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9577485959091001,
+"v_max": 1.011211686846569,
+"line_max": 0.6838108206135886,
+"trafo_max": 0.738017909902489,
+"losses_mwh": 17.805368084165405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A4",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9759097475908081,
+"v_max": 1.008557758742361,
+"line_max": 0.3732547720377349,
+"trafo_max": 0.3366816974101819,
+"losses_mwh": 15.990688358519167,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9730667548879323,
+"v_max": 1.0090029359659516,
+"line_max": 0.45921813533950717,
+"trafo_max": 0.4297645205432317,
+"losses_mwh": 16.240585027681938,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9682283409662289,
+"v_max": 1.0100528899810433,
+"line_max": 0.5284025467219359,
+"trafo_max": 0.6024321835224992,
+"losses_mwh": 16.846594608821114,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9577485959091001,
+"v_max": 1.011211686846569,
+"line_max": 0.6838108206135886,
+"trafo_max": 0.738017909902489,
+"losses_mwh": 17.805368084165405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9724189213449577,
+"v_max": 1.0090952979838517,
+"line_max": 0.5035480096558062,
+"trafo_max": 0.4733655718661838,
+"losses_mwh": 16.318307760485954,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9658227214038495,
+"v_max": 1.0110853743686605,
+"line_max": 0.6035182642633053,
+"trafo_max": 0.6594285496296507,
+"losses_mwh": 17.175754940963955,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9471210522572753,
+"v_max": 1.01435835834285,
+"line_max": 0.7962441322425063,
+"trafo_max": 0.8585592467168598,
+"losses_mwh": 18.547753983464276,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.63,
+"viol_hours": 0.5,
+"v_min": 0.9371991078881272,
+"v_max": 1.019301085684504,
+"line_max": 0.9663361970301217,
+"trafo_max": 1.0152026769395313,
+"losses_mwh": 19.782388325490093,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A1",
+"assets": [
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9724189213449577,
+"v_max": 1.0090952979838517,
+"line_max": 0.5035480096558062,
+"trafo_max": 0.4733655718661838,
+"losses_mwh": 16.318307760485954,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9658227214038495,
+"v_max": 1.0110853743686605,
+"line_max": 0.6035182642633053,
+"trafo_max": 0.6594285496296507,
+"losses_mwh": 17.175754940963955,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.951780354025795,
+"v_max": 1.0138902888718517,
+"line_max": 0.792379368913384,
+"trafo_max": 0.6738585828858246,
+"losses_mwh": 21.081426116726664,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.943001875312226,
+"v_max": 1.0187794913459078,
+"line_max": 0.9604552067976495,
+"trafo_max": 0.7956340668220665,
+"losses_mwh": 22.219426112128794,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9796836599239628,
+"v_max": 1.0064208435653281,
+"line_max": 0.3050172960609064,
+"trafo_max": 0.23714955930701292,
+"losses_mwh": 18.467247940585015,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9741512201525998,
+"v_max": 1.0088055175477357,
+"line_max": 0.502664757108817,
+"trafo_max": 0.372612826743067,
+"losses_mwh": 19.02518845624048,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9687101651632009,
+"v_max": 1.0107340654371966,
+"line_max": 0.6019901411522509,
+"trafo_max": 0.5184762295531502,
+"losses_mwh": 19.812900371443767,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.951780354025795,
+"v_max": 1.0138902888718517,
+"line_max": 0.792379368913384,
+"trafo_max": 0.6738585828858246,
+"losses_mwh": 21.081426116726664,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.943001875312226,
+"v_max": 1.0187794913459078,
+"line_max": 0.9604552067976495,
+"trafo_max": 0.7956340668220665,
+"losses_mwh": 22.219426112128794,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A3",
+"assets": [
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 46,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9724189213449577,
+"v_max": 1.0090952979838517,
+"line_max": 0.5035480096558062,
+"trafo_max": 0.4733655718661838,
+"losses_mwh": 16.318307760485954,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 79,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9658227214038495,
+"v_max": 1.0110853743686605,
+"line_max": 0.6035182642633053,
+"trafo_max": 0.6594285496296507,
+"losses_mwh": 17.175754940963955,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 117,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.951780354025795,
+"v_max": 1.0138902888718517,
+"line_max": 0.792379368913384,
+"trafo_max": 0.6738585828858246,
+"losses_mwh": 21.081426116726664,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 147,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.943001875312226,
+"v_max": 1.0187794913459078,
+"line_max": 0.9604552067976495,
+"trafo_max": 0.7956340668220665,
+"losses_mwh": 22.219426112128794,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A4",
+"assets": [
+{
+"year": 2040,
+"kind": "battery",
+"qty": 35.331505702331256,
+"unit": "kWh",
+"kw": 50.71448572566912
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9724189213449577,
+"v_max": 1.0090952979838517,
+"line_max": 0.5035480096558062,
+"trafo_max": 0.4733655718661838,
+"losses_mwh": 16.318307760485954,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9658227214038495,
+"v_max": 1.0110853743686605,
+"line_max": 0.6035182642633053,
+"trafo_max": 0.6594285496296507,
+"losses_mwh": 17.175754940963955,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9471210522572753,
+"v_max": 1.01435835834285,
+"line_max": 0.7962441322425063,
+"trafo_max": 0.8585592467168598,
+"losses_mwh": 18.547753983464276,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9381493644020441,
+"v_max": 1.019301085684504,
+"line_max": 0.965368232534394,
+"trafo_max": 0.9492873588916692,
+"losses_mwh": 19.782154840214382,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.06667939254076116
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.25,
+"viol_hours": 3.75,
+"v_min": 0.9182360795248803,
+"v_max": 1.0352315271485117,
+"line_max": 0.8550905539945552,
+"trafo_max": 1.2624766561338823,
+"losses_mwh": 11.438866085317052,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.25,
+"viol_hours": 83.25,
+"v_min": 0.853886705953812,
+"v_max": 1.0480362361553497,
+"line_max": 1.2673119622372773,
+"trafo_max": 2.0014074945762146,
+"losses_mwh": 15.957533028088607,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.25,
+"viol_hours": 226.0,
+"v_min": 0.7893796889925534,
+"v_max": 1.0553358919832654,
+"line_max": 1.862915956454684,
+"trafo_max": 2.8178115147929117,
+"losses_mwh": 20.634554601224643,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.25,
+"viol_hours": 425.75,
+"v_min": 0.7555539076115955,
+"v_max": 1.0583313634232592,
+"line_max": 2.1520328874456447,
+"trafo_max": 3.1462597890413577,
+"losses_mwh": 23.30600685244287,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A1",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00238094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00609676,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.018539,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0153769,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0328141,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0219351,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.979814813427025,
+"v_max": 1.0091824819894781,
+"line_max": 0.2995955879931441,
+"trafo_max": 0.22470719133331826,
+"losses_mwh": 10.978222397264975,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9514938963219596,
+"v_max": 1.0251023866427955,
+"line_max": 0.6572877646938607,
+"trafo_max": 0.489859168789597,
+"losses_mwh": 16.714523006010907,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9368356152288072,
+"v_max": 1.0257257153232462,
+"line_max": 0.7075230829216644,
+"trafo_max": 0.5957837086496293,
+"losses_mwh": 21.309251691753328,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9245475431875121,
+"v_max": 1.0260136923083552,
+"line_max": 0.8167684916109932,
+"trafo_max": 0.8034171536326102,
+"losses_mwh": 22.897774317878373,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9152559579577771,
+"v_max": 1.0273822165328956,
+"line_max": 0.9199229137630949,
+"trafo_max": 0.8773348103572024,
+"losses_mwh": 24.135544115042077,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00238094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00609676,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.018539,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0153769,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0328141,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0219351,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.987901372740954,
+"v_max": 1.0070164899641538,
+"line_max": 0.16019776293242408,
+"trafo_max": 0.1431951498744646,
+"losses_mwh": 14.927604433163282,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9604767387965768,
+"v_max": 1.0190411332444576,
+"line_max": 0.5108029747517486,
+"trafo_max": 0.4887574567688606,
+"losses_mwh": 16.46564237443286,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9368356152288072,
+"v_max": 1.0257257153232462,
+"line_max": 0.7075230829216644,
+"trafo_max": 0.5957837086496293,
+"losses_mwh": 21.309251691753328,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9245475431875121,
+"v_max": 1.0260136923083552,
+"line_max": 0.8167684916109932,
+"trafo_max": 0.8034171536326102,
+"losses_mwh": 22.897774317878373,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9152559579577771,
+"v_max": 1.0273822165328956,
+"line_max": 0.9199229137630949,
+"trafo_max": 0.8773348103572024,
+"losses_mwh": 24.135544115042077,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A3",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00238094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00609676,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.018539,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0328141,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0153769,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.979814813427025,
+"v_max": 1.0091824819894781,
+"line_max": 0.2995955879931441,
+"trafo_max": 0.22470719133331826,
+"losses_mwh": 10.978222397264975,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 65,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9546345995567983,
+"v_max": 1.023307610689442,
+"line_max": 0.5116701103487853,
+"trafo_max": 0.4893397603757747,
+"losses_mwh": 16.610524648632058,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 117,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9368356152288072,
+"v_max": 1.0257257153232462,
+"line_max": 0.7075230829216644,
+"trafo_max": 0.5957837086496293,
+"losses_mwh": 21.309251691753328,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 157,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9230042890134738,
+"v_max": 1.0265503286156725,
+"line_max": 0.8181601645911334,
+"trafo_max": 0.8040378795224185,
+"losses_mwh": 23.00862868961915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 174,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9157944111371055,
+"v_max": 1.0279343909366416,
+"line_max": 0.9148243087822387,
+"trafo_max": 0.8481936797797142,
+"losses_mwh": 24.259810839046928,
+"curtailed_mwh": 0.20728221870000013,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A4",
+"assets": [
+{
+"year": 2025,
+"kind": "battery",
+"qty": 39.552067532566724,
+"unit": "kWh",
+"kw": 96.26377451898865
+},
+{
+"year": 2030,
+"kind": "battery",
+"qty": 551.4828336013557,
+"unit": "kWh",
+"kw": 259.1610182430269
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.019804,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0212373,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0328141,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "battery",
+"qty": 732.6976006461368,
+"unit": "kWh",
+"kw": 380.51296865469607
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.018539,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.049449,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0153769,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0281424,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00238094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00609676,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0219351,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.032201,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00675094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0299523,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0287655,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0197299,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9444749320562019,
+"v_max": 1.024112419812489,
+"line_max": 0.6502300640206421,
+"trafo_max": 0.94971190161062,
+"losses_mwh": 10.664695809718422,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.23479808066797228
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.931826762285408,
+"v_max": 1.025058186783839,
+"line_max": 0.7147458354199607,
+"trafo_max": 0.9495338972085601,
+"losses_mwh": 14.926273007660019,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.4702034322128318
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9224492166166186,
+"v_max": 1.0261601593494403,
+"line_max": 0.821900504943878,
+"trafo_max": 0.9499495126996935,
+"losses_mwh": 17.134498172324335,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 4.134645231019079
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9151072745909108,
+"v_max": 1.0279898158601921,
+"line_max": 0.9223510452991414,
+"trafo_max": 0.9498709665153123,
+"losses_mwh": 18.701642921616745,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 7.45812095118552
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9689450516663678,
+"v_max": 1.011211686846569,
+"line_max": 0.523137636559602,
+"trafo_max": 0.5834392583504764,
+"losses_mwh": 16.903840402588013,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9504174862140533,
+"v_max": 1.0183418521555565,
+"line_max": 0.7444957647734779,
+"trafo_max": 0.8151635804668727,
+"losses_mwh": 18.835593458202435,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.63,
+"viol_hours": 1.0,
+"v_min": 0.9308901736051656,
+"v_max": 1.0214687729019463,
+"line_max": 1.042114607325732,
+"trafo_max": 1.071507831367143,
+"losses_mwh": 20.814213198935292,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.63,
+"viol_hours": 2.75,
+"v_min": 0.9256943565807645,
+"v_max": 1.0239882090940062,
+"line_max": 1.1151891615726295,
+"trafo_max": 1.1641598494598475,
+"losses_mwh": 21.842736194052932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A1",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.098,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0219657,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9689450516663678,
+"v_max": 1.011211686846569,
+"line_max": 0.523137636559602,
+"trafo_max": 0.5834392583504764,
+"losses_mwh": 16.903840402588013,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9584738455903612,
+"v_max": 1.0126409310737627,
+"line_max": 0.74144279588579,
+"trafo_max": 0.638114774462743,
+"losses_mwh": 20.8811205636518,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9494006603065414,
+"v_max": 1.0149834277731813,
+"line_max": 0.8802913151692141,
+"trafo_max": 0.8347831469062037,
+"losses_mwh": 22.409030866541745,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9449494710615053,
+"v_max": 1.0167634947785182,
+"line_max": 0.9556207473725286,
+"trafo_max": 0.905860148296676,
+"losses_mwh": 23.238178460185118,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.098,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0219657,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9796836599239628,
+"v_max": 1.0064208435653281,
+"line_max": 0.3050172960609064,
+"trafo_max": 0.23714955930701292,
+"losses_mwh": 18.467247940585015,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9714349860789884,
+"v_max": 1.0108397160588833,
+"line_max": 0.5219760725112345,
+"trafo_max": 0.45893235049301745,
+"losses_mwh": 19.56689695845992,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9584738455903612,
+"v_max": 1.0126409310737627,
+"line_max": 0.74144279588579,
+"trafo_max": 0.638114774462743,
+"losses_mwh": 20.8811205636518,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9494006603065414,
+"v_max": 1.0149834277731813,
+"line_max": 0.8802913151692141,
+"trafo_max": 0.8347831469062037,
+"losses_mwh": 22.409030866541745,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9449494710615053,
+"v_max": 1.0167634947785182,
+"line_max": 0.9556207473725286,
+"trafo_max": 0.905860148296676,
+"losses_mwh": 23.238178460185118,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A3",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.098,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0219657,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 65,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9689450516663678,
+"v_max": 1.011211686846569,
+"line_max": 0.523137636559602,
+"trafo_max": 0.5834392583504764,
+"losses_mwh": 16.903840402588013,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 117,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9584738455903612,
+"v_max": 1.0126409310737627,
+"line_max": 0.74144279588579,
+"trafo_max": 0.638114774462743,
+"losses_mwh": 20.8811205636518,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 157,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9494006603065414,
+"v_max": 1.0149834277731813,
+"line_max": 0.8802913151692141,
+"trafo_max": 0.8347831469062037,
+"losses_mwh": 22.409030866541745,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 174,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9449494710615053,
+"v_max": 1.0167634947785182,
+"line_max": 0.9556207473725286,
+"trafo_max": 0.905860148296676,
+"losses_mwh": 23.238178460185118,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A4",
+"assets": [
+{
+"year": 2035,
+"kind": "battery",
+"qty": 91.09574506420138,
+"unit": "kWh",
+"kw": 94.98148192988006
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.098,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0219657,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "battery",
+"qty": 108.15497809613024,
+"unit": "kWh",
+"kw": 67.56677191033891
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9689450516663678,
+"v_max": 1.011211686846569,
+"line_max": 0.523137636559602,
+"trafo_max": 0.5834392583504764,
+"losses_mwh": 16.903840402588013,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.953936939357828,
+"v_max": 1.0131597065862656,
+"line_max": 0.7444113719161777,
+"trafo_max": 0.8128198674583983,
+"losses_mwh": 18.361867230551745,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9449992350049601,
+"v_max": 1.0157223962651334,
+"line_max": 0.8843131727933877,
+"trafo_max": 0.9497582950097775,
+"losses_mwh": 20.044473531313372,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.16518115278411552
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9413624135346972,
+"v_max": 1.017606732583065,
+"line_max": 0.9591873752065105,
+"trafo_max": 0.9498537704598082,
+"losses_mwh": 20.95566295209028,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.4970865631018048
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9808679627124002,
+"v_max": 1.0015870346269615,
+"line_max": 0.32293588978871113,
+"trafo_max": 0.34786253064415523,
+"losses_mwh": 16.022227408726838,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9789288293875869,
+"v_max": 1.0032095699065438,
+"line_max": 0.3640158800610241,
+"trafo_max": 0.42775450256007674,
+"losses_mwh": 16.17541681899484,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9671857849459686,
+"v_max": 1.0042824636712493,
+"line_max": 0.7103415039337556,
+"trafo_max": 0.5914814118856212,
+"losses_mwh": 16.7965985766365,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9564990153596862,
+"v_max": 1.0054912725521667,
+"line_max": 0.8613148002747576,
+"trafo_max": 0.8249704307277378,
+"losses_mwh": 17.789149908117018,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A1",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9808679627124002,
+"v_max": 1.0015870346269615,
+"line_max": 0.32293588978871113,
+"trafo_max": 0.34786253064415523,
+"losses_mwh": 16.022227408726838,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9789288293875869,
+"v_max": 1.0032095699065438,
+"line_max": 0.3640158800610241,
+"trafo_max": 0.42775450256007674,
+"losses_mwh": 16.17541681899484,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9671857849459686,
+"v_max": 1.0042824636712493,
+"line_max": 0.7103415039337556,
+"trafo_max": 0.5914814118856212,
+"losses_mwh": 16.7965985766365,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9564990153596862,
+"v_max": 1.0054912725521667,
+"line_max": 0.8613148002747576,
+"trafo_max": 0.8249704307277378,
+"losses_mwh": 17.789149908117018,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.985952272738129,
+"v_max": 1.0003699708907632,
+"line_max": 0.2548179020849769,
+"trafo_max": 0.24117792420829845,
+"losses_mwh": 18.559951984157653,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9849481500005461,
+"v_max": 1.001409929180382,
+"line_max": 0.30648657029261267,
+"trafo_max": 0.27386959697179225,
+"losses_mwh": 18.595083910470308,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9834869303215736,
+"v_max": 1.0024887538122151,
+"line_max": 0.3465469765647553,
+"trafo_max": 0.33649714445259304,
+"losses_mwh": 18.723143785794246,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9746754121762922,
+"v_max": 1.0033049244389787,
+"line_max": 0.6931714791693588,
+"trafo_max": 0.4640013270561454,
+"losses_mwh": 19.201291569493076,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9667265300618876,
+"v_max": 1.0048063076495917,
+"line_max": 0.8051405841575623,
+"trafo_max": 0.6461859157620682,
+"losses_mwh": 20.01030503586569,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A3",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 25,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9808679627124002,
+"v_max": 1.0015870346269615,
+"line_max": 0.32293588978871113,
+"trafo_max": 0.34786253064415523,
+"losses_mwh": 16.022227408726838,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 46,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9789288293875869,
+"v_max": 1.0032095699065438,
+"line_max": 0.3640158800610241,
+"trafo_max": 0.42775450256007674,
+"losses_mwh": 16.17541681899484,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 76,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9671857849459686,
+"v_max": 1.0042824636712493,
+"line_max": 0.7103415039337556,
+"trafo_max": 0.5914814118856212,
+"losses_mwh": 16.7965985766365,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 112,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9564990153596862,
+"v_max": 1.0054912725521667,
+"line_max": 0.8613148002747576,
+"trafo_max": 0.8249704307277378,
+"losses_mwh": 17.789149908117018,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A4",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9808679627124002,
+"v_max": 1.0015870346269615,
+"line_max": 0.32293588978871113,
+"trafo_max": 0.34786253064415523,
+"losses_mwh": 16.022227408726838,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9789288293875869,
+"v_max": 1.0032095699065438,
+"line_max": 0.3640158800610241,
+"trafo_max": 0.42775450256007674,
+"losses_mwh": 16.17541681899484,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9671857849459686,
+"v_max": 1.0042824636712493,
+"line_max": 0.7103415039337556,
+"trafo_max": 0.5914814118856212,
+"losses_mwh": 16.7965985766365,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9564990153596862,
+"v_max": 1.0054912725521667,
+"line_max": 0.8613148002747576,
+"trafo_max": 0.8249704307277378,
+"losses_mwh": 17.789149908117018,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9770566618026967,
+"v_max": 1.0032095699065438,
+"line_max": 0.4688391578988189,
+"trafo_max": 0.4758848790377606,
+"losses_mwh": 16.276001739714843,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9627437178275579,
+"v_max": 1.0051097087129182,
+"line_max": 0.7815047260123654,
+"trafo_max": 0.7224247565699801,
+"losses_mwh": 17.070081398550343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9525800102193887,
+"v_max": 1.0076494804345217,
+"line_max": 0.9218077916608651,
+"trafo_max": 0.9073248071062027,
+"losses_mwh": 18.18282205206243,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.63,
+"viol_hours": 1.5,
+"v_min": 0.9408911600933108,
+"v_max": 1.011836161125336,
+"line_max": 1.0597309418102407,
+"trafo_max": 1.107281062737248,
+"losses_mwh": 19.520946656390223,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A1",
+"assets": [
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9770566618026967,
+"v_max": 1.0032095699065438,
+"line_max": 0.4688391578988189,
+"trafo_max": 0.4758848790377606,
+"losses_mwh": 16.276001739714843,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9627437178275579,
+"v_max": 1.0051097087129182,
+"line_max": 0.7815047260123654,
+"trafo_max": 0.7224247565699801,
+"losses_mwh": 17.070081398550343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9637335060335513,
+"v_max": 1.0071332001127242,
+"line_max": 0.8535588669965976,
+"trafo_max": 0.7098513120921813,
+"losses_mwh": 20.334584278994672,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9539621913134818,
+"v_max": 1.0110774622408762,
+"line_max": 0.9868282506453059,
+"trafo_max": 0.8646685437351159,
+"losses_mwh": 21.41049880796706,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.985952272738129,
+"v_max": 1.0003699708907632,
+"line_max": 0.2548179020849769,
+"trafo_max": 0.24117792420829845,
+"losses_mwh": 18.559951984157653,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9821155333694781,
+"v_max": 1.0024887538121543,
+"line_max": 0.46257747174111974,
+"trafo_max": 0.37407162106058073,
+"losses_mwh": 18.803773974065226,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9712690894846607,
+"v_max": 1.0038837502322768,
+"line_max": 0.7628980235777105,
+"trafo_max": 0.5663056074100543,
+"losses_mwh": 19.424765321219912,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9637335060335513,
+"v_max": 1.0071332001127242,
+"line_max": 0.8535588669965976,
+"trafo_max": 0.7098513120921813,
+"losses_mwh": 20.334584278994672,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9539621913134818,
+"v_max": 1.0110774622408762,
+"line_max": 0.9868282506453059,
+"trafo_max": 0.8646685437351159,
+"losses_mwh": 21.41049880796706,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A3",
+"assets": [
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 51,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9770566618026967,
+"v_max": 1.0032095699065438,
+"line_max": 0.4688391578988189,
+"trafo_max": 0.4758848790377606,
+"losses_mwh": 16.276001739714843,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 88,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9627437178275579,
+"v_max": 1.0051097087129182,
+"line_max": 0.7815047260123654,
+"trafo_max": 0.7224247565699801,
+"losses_mwh": 17.070081398550343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 130,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9601806797787457,
+"v_max": 1.0071318967234253,
+"line_max": 0.8811792222781644,
+"trafo_max": 0.7108663462496632,
+"losses_mwh": 20.508896359576053,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 163,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9504087263999874,
+"v_max": 1.0110747268455158,
+"line_max": 0.9961837823607518,
+"trafo_max": 0.8339029621542849,
+"losses_mwh": 21.64357694998923,
+"curtailed_mwh": 0.07001414537499998,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A4",
+"assets": [
+{
+"year": 2040,
+"kind": "battery",
+"qty": 106.40008242696878,
+"unit": "kWh",
+"kw": 122.92005454961394
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9770566618026967,
+"v_max": 1.0032095699065438,
+"line_max": 0.4688391578988189,
+"trafo_max": 0.4758848790377606,
+"losses_mwh": 16.276001739714843,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9627437178275579,
+"v_max": 1.0051097087129182,
+"line_max": 0.7815047260123654,
+"trafo_max": 0.7224247565699801,
+"losses_mwh": 17.070081398550343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9592069242491222,
+"v_max": 1.0076524494600008,
+"line_max": 0.8575479268484886,
+"trafo_max": 0.9048376353593212,
+"losses_mwh": 17.85655402339824,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9474829146799049,
+"v_max": 1.0118423263067473,
+"line_max": 0.9903476829607762,
+"trafo_max": 0.949652851593618,
+"losses_mwh": 19.083908525829077,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.22874819315639933
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A0",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9687216806642305,
+"v_max": 1.0054912725521112,
+"line_max": 0.6547557820604226,
+"trafo_max": 0.5695494522746278,
+"losses_mwh": 16.654815089100207,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9528140024688181,
+"v_max": 1.0084274990905737,
+"line_max": 0.9060457763643998,
+"trafo_max": 0.8925959867527558,
+"losses_mwh": 18.245985685063552,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 0.63,
+"viol_hours": 3.25,
+"v_min": 0.9363748687508877,
+"v_max": 1.0147532258800123,
+"line_max": 1.0901238833111193,
+"trafo_max": 1.1668000290739564,
+"losses_mwh": 20.197497479457407,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 0.63,
+"viol_hours": 6.75,
+"v_min": 0.9312257344402618,
+"v_max": 1.0173820724796014,
+"line_max": 1.2247307616455785,
+"trafo_max": 1.3196395841176105,
+"losses_mwh": 21.308502654481423,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A1",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00022739,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0173044,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 1.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9687216806642305,
+"v_max": 1.0054912725521112,
+"line_max": 0.6547557820604226,
+"trafo_max": 0.5695494522746278,
+"losses_mwh": 16.654815089100207,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.965455029060626,
+"v_max": 1.0074529009948345,
+"line_max": 0.6626285540007382,
+"trafo_max": 0.6979443414860818,
+"losses_mwh": 20.31699577255265,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9574819623318165,
+"v_max": 1.0117683440492855,
+"line_max": 0.77867334432622,
+"trafo_max": 0.7250315208546817,
+"losses_mwh": 24.557936963206544,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9552597331571278,
+"v_max": 1.0155691768562327,
+"line_max": 0.8694397449430056,
+"trafo_max": 0.8182059276257406,
+"losses_mwh": 25.388110811816905,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A2",
+"assets": [
+{
+"year": 2025,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2025,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00022739,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0173044,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 1.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.985952272738129,
+"v_max": 1.0003699708907632,
+"line_max": 0.2548179020849769,
+"trafo_max": 0.24117792420829845,
+"losses_mwh": 18.559951984157653,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9754300539058479,
+"v_max": 1.0048063076495688,
+"line_max": 0.6420960333808458,
+"trafo_max": 0.44699280455188656,
+"losses_mwh": 19.093890515047093,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.965455029060626,
+"v_max": 1.0074529009948345,
+"line_max": 0.6626285540007382,
+"trafo_max": 0.6979443414860818,
+"losses_mwh": 20.31699577255265,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9574819623318165,
+"v_max": 1.0117683440492855,
+"line_max": 0.77867334432622,
+"trafo_max": 0.7250315208546817,
+"losses_mwh": 24.557936963206544,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9552597331571278,
+"v_max": 1.0155691768562327,
+"line_max": 0.8694397449430056,
+"trafo_max": 0.8182059276257406,
+"losses_mwh": 25.388110811816905,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A3",
+"assets": [
+{
+"year": 2035,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00022739,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0173044,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "transformer",
+"qty": 1,
+"unit": "unit",
+"mva": 1.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 72,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9687216806642305,
+"v_max": 1.0054912725521112,
+"line_max": 0.6547557820604226,
+"trafo_max": 0.5695494522746278,
+"losses_mwh": 16.654815089100207,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 129,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.965455029060626,
+"v_max": 1.0074529009948345,
+"line_max": 0.6626285540007382,
+"trafo_max": 0.6979443414860818,
+"losses_mwh": 20.31699577255265,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 174,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9574819623318165,
+"v_max": 1.0117683440492855,
+"line_max": 0.77867334432622,
+"trafo_max": 0.7250315208546817,
+"losses_mwh": 24.557936963206544,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 194,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 1.0,
+"viol_hours": 0.0,
+"v_min": 0.9552597331571278,
+"v_max": 1.0155691768562327,
+"line_max": 0.8694397449430056,
+"trafo_max": 0.8182059276257406,
+"losses_mwh": 25.388110811816905,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A4",
+"assets": [
+{
+"year": 2035,
+"kind": "battery",
+"qty": 184.26608812055758,
+"unit": "kWh",
+"kw": 170.4630563642665
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00022739,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0173044,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "battery",
+"qty": 198.61486029063582,
+"unit": "kWh",
+"kw": 117.29406286206004
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 0,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9687216806642305,
+"v_max": 1.0054912725521112,
+"line_max": 0.6547557820604226,
+"trafo_max": 0.5695494522746278,
+"losses_mwh": 16.654815089100207,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 0,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9607612611698887,
+"v_max": 1.0080486253436105,
+"line_max": 0.6654103103655996,
+"trafo_max": 0.8896373198412525,
+"losses_mwh": 17.85069643220343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 0,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9458345501658462,
+"v_max": 1.0133284696645422,
+"line_max": 0.7847141198481727,
+"trafo_max": 0.9498796686813272,
+"losses_mwh": 19.599114968580437,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.5175745105027377
+},
+{
+"year": 2045,
+"devices": 0,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9437179369914404,
+"v_max": 1.0174016572601432,
+"line_max": 0.8747173362991194,
+"trafo_max": 0.949874285562995,
+"losses_mwh": 20.630074811325642,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 1.6217216828406866
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "low",
+"pathway": "A5",
+"assets": [
+{
+"year": 2035,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 23,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 9,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9664220536308357,
+"v_max": 1.0235769238847883,
+"line_max": 0.42720068710345527,
+"trafo_max": 0.5116404422043085,
+"losses_mwh": 9.22095611070915,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 41,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 13,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9773107794769712,
+"v_max": 1.022791572224508,
+"line_max": 0.5460396715800154,
+"trafo_max": 0.4561803687810826,
+"losses_mwh": 11.913270244525833,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 69,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 18,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.967111673125303,
+"v_max": 1.0358935322508427,
+"line_max": 0.8004307132260192,
+"trafo_max": 0.7764323013185602,
+"losses_mwh": 13.232554050363763,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 101,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 23,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9578461460948554,
+"v_max": 1.0511170031999053,
+"line_max": 0.9473566920504433,
+"trafo_max": 0.9893265442967183,
+"losses_mwh": 15.066508860292855,
+"curtailed_mwh": 0.03856726064999999,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "central",
+"pathway": "A5",
+"assets": [
+{
+"year": 2030,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.25,
+"viol_hours": 0.0,
+"v_min": 0.9765827202096364,
+"v_max": 1.0099454867820037,
+"line_max": 0.300738505828879,
+"trafo_max": 0.35894759843126084,
+"losses_mwh": 8.534520010424087,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 46,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 14,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9773622328311071,
+"v_max": 1.0225597326456821,
+"line_max": 0.5996930182743353,
+"trafo_max": 0.5373052714113649,
+"losses_mwh": 12.011356405587085,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 79,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 21,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9665501349665492,
+"v_max": 1.0232752915801544,
+"line_max": 0.6334973920872047,
+"trafo_max": 0.5632322121576114,
+"losses_mwh": 17.051055126361433,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 117,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 29,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9655305756830374,
+"v_max": 1.037720047354252,
+"line_max": 0.8396651270753271,
+"trafo_max": 0.7634672313225067,
+"losses_mwh": 18.735756770405963,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 147,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 37,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9549481734398032,
+"v_max": 1.0523002456023625,
+"line_max": 0.9608770666480362,
+"trafo_max": 0.9256319755705583,
+"losses_mwh": 20.409912356556582,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "low",
+"pathway": "A5",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 23,
+"n_hp": 9,
+"n_ev": 14,
+"n_pv": 11,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9759097475908081,
+"v_max": 1.008557758742361,
+"line_max": 0.3732547720377349,
+"trafo_max": 0.3366816974101819,
+"losses_mwh": 15.990688358519167,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 41,
+"n_hp": 17,
+"n_ev": 24,
+"n_pv": 15,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9730667548879323,
+"v_max": 1.0090029359659516,
+"line_max": 0.45921813533950717,
+"trafo_max": 0.4297645205432317,
+"losses_mwh": 16.240585027681938,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 69,
+"n_hp": 30,
+"n_ev": 39,
+"n_pv": 20,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9682283409662289,
+"v_max": 1.0100528899810433,
+"line_max": 0.5284025467219359,
+"trafo_max": 0.6024321835224992,
+"losses_mwh": 16.846594608821114,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 101,
+"n_hp": 46,
+"n_ev": 55,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9577485959091001,
+"v_max": 1.011211686846569,
+"line_max": 0.6838108206135886,
+"trafo_max": 0.738017909902489,
+"losses_mwh": 17.805368084165405,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "central",
+"pathway": "A5",
+"assets": [
+{
+"year": 2040,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 46,
+"n_hp": 18,
+"n_ev": 28,
+"n_pv": 16,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9724189213449577,
+"v_max": 1.0090952979838517,
+"line_max": 0.5035480096558062,
+"trafo_max": 0.4733655718661838,
+"losses_mwh": 16.318307760485954,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 79,
+"n_hp": 33,
+"n_ev": 46,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9658227214038495,
+"v_max": 1.0110853743686605,
+"line_max": 0.6035182642633053,
+"trafo_max": 0.6594285496296507,
+"losses_mwh": 17.175754940963955,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 117,
+"n_hp": 52,
+"n_ev": 65,
+"n_pv": 31,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9736130342138104,
+"v_max": 1.0200140885298112,
+"line_max": 0.7747564055351895,
+"trafo_max": 0.8361816881179387,
+"losses_mwh": 18.528214601285242,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 147,
+"n_hp": 69,
+"n_ev": 78,
+"n_pv": 39,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9732604705691078,
+"v_max": 1.031038868755133,
+"line_max": 0.9146606496059169,
+"trafo_max": 0.96275540837928,
+"losses_mwh": 19.737359631339835,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "rural",
+"scenario": "high",
+"pathway": "A5",
+"assets": [
+{
+"year": 2025,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.4
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00650928,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0220781,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00668911,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0207894,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0244159,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0033855,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.0051453,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00601063,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2030,
+"kind": "cable",
+"qty": 0.00183901,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00299972,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0198822,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0189225,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00517276,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00525083,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00163185,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.00177415,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0220546,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.016837,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00313372,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0241685,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00238094,
+"unit": "km",
+"mm2": 150.0
+},
+{
+"year": 2040,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.4,
+"viol_hours": 0.0,
+"v_min": 0.9811279878009396,
+"v_max": 1.0198162811031262,
+"line_max": 0.29209888705359666,
+"trafo_max": 0.2204640645365625,
+"losses_mwh": 10.978266527677537,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 65,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 23,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9733690887204695,
+"v_max": 1.023496358188459,
+"line_max": 0.6483696220259287,
+"trafo_max": 0.4782881024466362,
+"losses_mwh": 16.868472546724025,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 117,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 34,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9665531783550964,
+"v_max": 1.0361313649082862,
+"line_max": 0.7396773947206307,
+"trafo_max": 0.721985225008951,
+"losses_mwh": 19.165238957811248,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 157,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 45,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9600922081802308,
+"v_max": 1.0384019081095912,
+"line_max": 0.8545406651274957,
+"trafo_max": 0.7655587066788837,
+"losses_mwh": 23.72631054972436,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 174,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 55,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9579172790282364,
+"v_max": 1.0553751163707112,
+"line_max": 0.9337942936947683,
+"trafo_max": 0.815168069632558,
+"losses_mwh": 25.048373394288628,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "low",
+"pathway": "A5",
+"assets": [],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 25,
+"n_hp": 10,
+"n_ev": 15,
+"n_pv": 9,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9808679627124002,
+"v_max": 1.0015870346269615,
+"line_max": 0.32293588978871113,
+"trafo_max": 0.34786253064415523,
+"losses_mwh": 16.022227408726838,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 46,
+"n_hp": 19,
+"n_ev": 27,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9789288293875869,
+"v_max": 1.0032095699065438,
+"line_max": 0.3640158800610241,
+"trafo_max": 0.42775450256007674,
+"losses_mwh": 16.17541681899484,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 76,
+"n_hp": 33,
+"n_ev": 43,
+"n_pv": 19,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9671857849459686,
+"v_max": 1.0042824636712493,
+"line_max": 0.7103415039337556,
+"trafo_max": 0.5914814118856212,
+"losses_mwh": 16.7965985766365,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 112,
+"n_hp": 51,
+"n_ev": 61,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9564990153596862,
+"v_max": 1.0054912725521667,
+"line_max": 0.8613148002747576,
+"trafo_max": 0.8249704307277378,
+"losses_mwh": 17.789149908117018,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "central",
+"pathway": "A5",
+"assets": [
+{
+"year": 2040,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 51,
+"n_hp": 20,
+"n_ev": 31,
+"n_pv": 14,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9770566618026967,
+"v_max": 1.0032095699065438,
+"line_max": 0.4688391578988189,
+"trafo_max": 0.4758848790377606,
+"losses_mwh": 16.276001739714843,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 88,
+"n_hp": 37,
+"n_ev": 51,
+"n_pv": 22,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9627437178275579,
+"v_max": 1.0051097087129182,
+"line_max": 0.7815047260123654,
+"trafo_max": 0.7224247565699801,
+"losses_mwh": 17.070081398550343,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 130,
+"n_hp": 58,
+"n_ev": 72,
+"n_pv": 31,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9811272686443074,
+"v_max": 1.0194206016991887,
+"line_max": 0.8581012420701395,
+"trafo_max": 0.6926733909753561,
+"losses_mwh": 20.502146377001278,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 163,
+"n_hp": 76,
+"n_ev": 87,
+"n_pv": 40,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9767604062773514,
+"v_max": 1.0189257753557108,
+"line_max": 0.9886712234365194,
+"trafo_max": 0.8435721406185336,
+"losses_mwh": 21.620212125121032,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "semi_urban",
+"scenario": "high",
+"pathway": "A5",
+"assets": [
+{
+"year": 2035,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.63
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9779294726052834,
+"v_max": 1.00647983795788,
+"line_max": 0.305285173411705,
+"trafo_max": 0.3008423626360355,
+"losses_mwh": 15.712665270109932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 65,
+"n_hp": 28,
+"n_ev": 37,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9689450516663678,
+"v_max": 1.011211686846569,
+"line_max": 0.523137636559602,
+"trafo_max": 0.5834392583504764,
+"losses_mwh": 16.903840402588013,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 117,
+"n_hp": 55,
+"n_ev": 62,
+"n_pv": 36,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9768031966772126,
+"v_max": 1.0197105820551629,
+"line_max": 0.7250274098505174,
+"trafo_max": 0.7940208533131351,
+"losses_mwh": 18.81815642442389,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 157,
+"n_hp": 78,
+"n_ev": 79,
+"n_pv": 47,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9719995544343685,
+"v_max": 1.0320220687225525,
+"line_max": 0.9779256421898469,
+"trafo_max": 0.998743379173,
+"losses_mwh": 20.744565466860152,
+"curtailed_mwh": 0.11411834904999996,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 174,
+"n_hp": 87,
+"n_ev": 87,
+"n_pv": 57,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.971765823222889,
+"v_max": 1.0325122445908317,
+"line_max": 0.9321058702612623,
+"trafo_max": 0.9951194093808274,
+"losses_mwh": 21.741857603029025,
+"curtailed_mwh": 0.3517760360999996,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+},
+{
+"grid": "urban",
+"scenario": "high",
+"pathway": "A5",
+"assets": [
+{
+"year": 2035,
+"kind": "ront",
+"qty": 1,
+"unit": "unit",
+"mva": 0.8
+},
+{
+"year": 2035,
+"kind": "cable",
+"qty": 0.0295787,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0365111,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.00022739,
+"unit": "km",
+"mm2": 240.0
+},
+{
+"year": 2040,
+"kind": "cable",
+"qty": 0.0173044,
+"unit": "km",
+"mm2": 240.0
+}
+],
+"years": [
+{
+"year": 2025,
+"devices": 0,
+"n_hp": 0,
+"n_ev": 0,
+"n_pv": 0,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.982229632245393,
+"v_max": 1.000366770918529,
+"line_max": 0.2753292204031702,
+"trafo_max": 0.3062120470614923,
+"losses_mwh": 15.978233585577716,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2030,
+"devices": 72,
+"n_hp": 31,
+"n_ev": 41,
+"n_pv": 25,
+"trafo_mva": 0.63,
+"viol_hours": 0.0,
+"v_min": 0.9687216806642305,
+"v_max": 1.0054912725521112,
+"line_max": 0.6547557820604226,
+"trafo_max": 0.5695494522746278,
+"losses_mwh": 16.654815089100207,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2035,
+"devices": 129,
+"n_hp": 61,
+"n_ev": 68,
+"n_pv": 37,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9809940691615292,
+"v_max": 1.0195903227590095,
+"line_max": 0.8429283288028252,
+"trafo_max": 0.6814714093313314,
+"losses_mwh": 20.55637725241932,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2040,
+"devices": 174,
+"n_hp": 86,
+"n_ev": 88,
+"n_pv": 49,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9786082288556597,
+"v_max": 1.0185743778594105,
+"line_max": 0.7617732917372996,
+"trafo_max": 0.8863248291167165,
+"losses_mwh": 21.816286181567254,
+"curtailed_mwh": 0.0,
+"battery_throughput_mwh": 0.0
+},
+{
+"year": 2045,
+"devices": 194,
+"n_hp": 97,
+"n_ev": 97,
+"n_pv": 60,
+"trafo_mva": 0.8,
+"viol_hours": 0.0,
+"v_min": 0.9769238461757299,
+"v_max": 1.0264845790277908,
+"line_max": 0.8502148879979992,
+"trafo_max": 0.9763934462949506,
+"losses_mwh": 22.720266383200773,
+"curtailed_mwh": 0.04609938560000001,
+"battery_throughput_mwh": 0.0
+}
+],
+"unresolved": []
+}
+]

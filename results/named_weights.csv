@@ -1,0 +1,361 @@
+grid,view,weights,method,pathway,score,rank,p_first
+rural,dso,equal,WSM,A1,0.8664,1,1
+rural,dso,equal,WSM,A2,0.7109,3,0
+rural,dso,equal,WSM,A3,0.5105,4,0
+rural,dso,equal,WSM,A4,0.1667,5,0
+rural,dso,equal,WSM,A5,0.7355,2,0
+rural,dso,equal,TOPSIS,A1,0.7915,1,1
+rural,dso,equal,TOPSIS,A2,0.6881,2,0
+rural,dso,equal,TOPSIS,A3,0.5078,4,0
+rural,dso,equal,TOPSIS,A4,0.309,5,0
+rural,dso,equal,TOPSIS,A5,0.6416,3,0
+rural,dso,equal,PROMETHEE II,A1,0.4213,1,1
+rural,dso,equal,PROMETHEE II,A2,0.198,3,0
+rural,dso,equal,PROMETHEE II,A3,-0.1225,4,0
+rural,dso,equal,PROMETHEE II,A4,-0.7064,5,0
+rural,dso,equal,PROMETHEE II,A5,0.2096,2,0
+rural,dso,cost-led operator,WSM,A1,0.9103,1,1
+rural,dso,cost-led operator,WSM,A2,0.7104,2,0
+rural,dso,cost-led operator,WSM,A3,0.4328,4,0
+rural,dso,cost-led operator,WSM,A4,0.1,5,0
+rural,dso,cost-led operator,WSM,A5,0.503,3,0
+rural,dso,cost-led operator,TOPSIS,A1,0.8642,1,1
+rural,dso,cost-led operator,TOPSIS,A2,0.7049,2,0
+rural,dso,cost-led operator,TOPSIS,A3,0.3821,3,0
+rural,dso,cost-led operator,TOPSIS,A4,0.171,5,0
+rural,dso,cost-led operator,TOPSIS,A5,0.3688,4,0
+rural,dso,cost-led operator,PROMETHEE II,A1,0.5868,1,1
+rural,dso,cost-led operator,PROMETHEE II,A2,0.3428,2,0
+rural,dso,cost-led operator,PROMETHEE II,A3,-0.1718,4,0
+rural,dso,cost-led operator,PROMETHEE II,A4,-0.6955,5,0
+rural,dso,cost-led operator,PROMETHEE II,A5,-0.06227,3,0
+rural,dso,climate-led,WSM,A1,0.9004,1,1
+rural,dso,climate-led,WSM,A2,0.6529,3,0
+rural,dso,climate-led,WSM,A3,0.6338,4,0
+rural,dso,climate-led,WSM,A4,0.05,5,0
+rural,dso,climate-led,WSM,A5,0.7619,2,0
+rural,dso,climate-led,TOPSIS,A1,0.8749,1,1
+rural,dso,climate-led,TOPSIS,A2,0.6039,4,0
+rural,dso,climate-led,TOPSIS,A3,0.6933,3,0
+rural,dso,climate-led,TOPSIS,A4,0.09305,5,0
+rural,dso,climate-led,TOPSIS,A5,0.7235,2,0
+rural,dso,climate-led,PROMETHEE II,A1,0.4782,1,1
+rural,dso,climate-led,PROMETHEE II,A2,0.08399,3,0
+rural,dso,climate-led,PROMETHEE II,A3,0.05171,4,0
+rural,dso,climate-led,PROMETHEE II,A4,-0.8608,5,0
+rural,dso,climate-led,PROMETHEE II,A5,0.2469,2,0
+rural,dso,resource-led,WSM,A1,0.8194,1,0.7398
+rural,dso,resource-led,WSM,A2,0.6689,3,0
+rural,dso,resource-led,WSM,A3,0.6359,4,0
+rural,dso,resource-led,WSM,A4,0.05,5,0
+rural,dso,resource-led,WSM,A5,0.7964,2,0.2602
+rural,dso,resource-led,TOPSIS,A1,0.7458,1,0.5243
+rural,dso,resource-led,TOPSIS,A2,0.6588,4,0
+rural,dso,resource-led,TOPSIS,A3,0.6841,3,0
+rural,dso,resource-led,TOPSIS,A4,0.09683,5,0
+rural,dso,resource-led,TOPSIS,A5,0.7417,2,0.4757
+rural,dso,resource-led,PROMETHEE II,A1,0.3627,1,0.7291
+rural,dso,resource-led,PROMETHEE II,A2,0.1381,3,0
+rural,dso,resource-led,PROMETHEE II,A3,0.04481,4,0
+rural,dso,resource-led,PROMETHEE II,A4,-0.8671,5,0
+rural,dso,resource-led,PROMETHEE II,A5,0.3214,2,0.2709
+rural,system,equal,WSM,A1,0.8664,2,0.0001
+rural,system,equal,WSM,A2,0.7109,3,0
+rural,system,equal,WSM,A3,0.7056,4,0
+rural,system,equal,WSM,A4,0.1667,5,0
+rural,system,equal,WSM,A5,0.9339,1,0.9999
+rural,system,equal,TOPSIS,A1,0.7915,2,0
+rural,system,equal,TOPSIS,A2,0.6881,3,0
+rural,system,equal,TOPSIS,A3,0.6372,4,0
+rural,system,equal,TOPSIS,A4,0.309,5,0
+rural,system,equal,TOPSIS,A5,0.8909,1,1
+rural,system,equal,PROMETHEE II,A1,0.2751,2,0.0003
+rural,system,equal,PROMETHEE II,A2,0.03765,4,0
+rural,system,equal,PROMETHEE II,A3,0.06301,3,0
+rural,system,equal,PROMETHEE II,A4,-0.7917,5,0
+rural,system,equal,PROMETHEE II,A5,0.4159,1,0.9997
+rural,system,cost-led operator,WSM,A1,0.9103,1,0.9217
+rural,system,cost-led operator,WSM,A2,0.7104,4,0
+rural,system,cost-led operator,WSM,A3,0.803,3,0
+rural,system,cost-led operator,WSM,A4,0.1,5,0
+rural,system,cost-led operator,WSM,A5,0.8773,2,0.0783
+rural,system,cost-led operator,TOPSIS,A1,0.8642,1,0.9275
+rural,system,cost-led operator,TOPSIS,A2,0.7049,4,0
+rural,system,cost-led operator,TOPSIS,A3,0.7977,3,0
+rural,system,cost-led operator,TOPSIS,A4,0.171,5,0
+rural,system,cost-led operator,TOPSIS,A5,0.8145,2,0.0725
+rural,system,cost-led operator,PROMETHEE II,A1,0.326,1,0.4597
+rural,system,cost-led operator,PROMETHEE II,A2,0.04023,4,0
+rural,system,cost-led operator,PROMETHEE II,A3,0.1885,3,0
+rural,system,cost-led operator,PROMETHEE II,A4,-0.875,5,0
+rural,system,cost-led operator,PROMETHEE II,A5,0.3203,2,0.5403
+rural,system,climate-led,WSM,A1,0.9004,2,0.0022
+rural,system,climate-led,WSM,A2,0.6529,4,0
+rural,system,climate-led,WSM,A3,0.8094,3,0
+rural,system,climate-led,WSM,A4,0.05,5,0
+rural,system,climate-led,WSM,A5,0.9405,1,0.9978
+rural,system,climate-led,TOPSIS,A1,0.8749,2,0.0076
+rural,system,climate-led,TOPSIS,A2,0.6039,4,0
+rural,system,climate-led,TOPSIS,A3,0.8122,3,0
+rural,system,climate-led,TOPSIS,A4,0.09305,5,0
+rural,system,climate-led,TOPSIS,A5,0.918,1,0.9924
+rural,system,climate-led,PROMETHEE II,A1,0.3467,2,0.0073
+rural,system,climate-led,PROMETHEE II,A2,-0.06036,4,0
+rural,system,climate-led,PROMETHEE II,A3,0.2187,3,0
+rural,system,climate-led,PROMETHEE II,A4,-0.9375,5,0
+rural,system,climate-led,PROMETHEE II,A5,0.4325,1,0.9927
+rural,system,resource-led,WSM,A1,0.8194,2,0
+rural,system,resource-led,WSM,A2,0.6689,4,0
+rural,system,resource-led,WSM,A3,0.787,3,0
+rural,system,resource-led,WSM,A4,0.05,5,0
+rural,system,resource-led,WSM,A5,0.9495,1,1
+rural,system,resource-led,TOPSIS,A1,0.7458,3,0
+rural,system,resource-led,TOPSIS,A2,0.6588,4,0
+rural,system,resource-led,TOPSIS,A3,0.7826,2,0
+rural,system,resource-led,TOPSIS,A4,0.09683,5,0
+rural,system,resource-led,TOPSIS,A5,0.9246,1,1
+rural,system,resource-led,PROMETHEE II,A1,0.2536,2,0
+rural,system,resource-led,PROMETHEE II,A2,0.01434,4,0
+rural,system,resource-led,PROMETHEE II,A3,0.1905,3,0
+rural,system,resource-led,PROMETHEE II,A4,-0.9375,5,0
+rural,system,resource-led,PROMETHEE II,A5,0.479,1,1
+semi_urban,dso,equal,WSM,A1,0.8099,2,0
+semi_urban,dso,equal,WSM,A2,0.6197,3,0
+semi_urban,dso,equal,WSM,A3,0.4937,5,0
+semi_urban,dso,equal,WSM,A4,0.9757,1,1
+semi_urban,dso,equal,WSM,A5,0.521,4,0
+semi_urban,dso,equal,TOPSIS,A1,0.621,2,0
+semi_urban,dso,equal,TOPSIS,A2,0.4596,3,0
+semi_urban,dso,equal,TOPSIS,A3,0.3393,5,0
+semi_urban,dso,equal,TOPSIS,A4,0.9318,1,1
+semi_urban,dso,equal,TOPSIS,A5,0.3721,4,0
+semi_urban,dso,equal,PROMETHEE II,A1,0.1682,2,0
+semi_urban,dso,equal,PROMETHEE II,A2,-0.06168,3,0
+semi_urban,dso,equal,PROMETHEE II,A3,-0.2614,5,0
+semi_urban,dso,equal,PROMETHEE II,A4,0.3835,1,1
+semi_urban,dso,equal,PROMETHEE II,A5,-0.2287,4,0
+semi_urban,dso,cost-led operator,WSM,A1,0.9359,2,0.0026
+semi_urban,dso,cost-led operator,WSM,A2,0.7643,3,0
+semi_urban,dso,cost-led operator,WSM,A3,0.3672,4,0
+semi_urban,dso,cost-led operator,WSM,A4,0.9699,1,0.9974
+semi_urban,dso,cost-led operator,WSM,A5,0.3542,5,0
+semi_urban,dso,cost-led operator,TOPSIS,A1,0.8976,2,0.0073
+semi_urban,dso,cost-led operator,TOPSIS,A2,0.7477,3,0
+semi_urban,dso,cost-led operator,TOPSIS,A3,0.1727,5,0
+semi_urban,dso,cost-led operator,TOPSIS,A4,0.9405,1,0.9927
+semi_urban,dso,cost-led operator,TOPSIS,A5,0.1763,4,0
+semi_urban,dso,cost-led operator,PROMETHEE II,A1,0.3291,2,0
+semi_urban,dso,cost-led operator,PROMETHEE II,A2,0.1588,3,0
+semi_urban,dso,cost-led operator,PROMETHEE II,A3,-0.4422,5,0
+semi_urban,dso,cost-led operator,PROMETHEE II,A4,0.3854,1,1
+semi_urban,dso,cost-led operator,PROMETHEE II,A5,-0.4311,4,0
+semi_urban,dso,climate-led,WSM,A1,0.7937,2,0
+semi_urban,dso,climate-led,WSM,A2,0.4077,5,0
+semi_urban,dso,climate-led,WSM,A3,0.5091,4,0
+semi_urban,dso,climate-led,WSM,A4,0.9781,1,1
+semi_urban,dso,climate-led,WSM,A5,0.5584,3,0
+semi_urban,dso,climate-led,TOPSIS,A1,0.716,2,0
+semi_urban,dso,climate-led,TOPSIS,A2,0.2985,5,0
+semi_urban,dso,climate-led,TOPSIS,A3,0.5721,4,0
+semi_urban,dso,climate-led,TOPSIS,A4,0.9569,1,1
+semi_urban,dso,climate-led,TOPSIS,A5,0.6089,3,0
+semi_urban,dso,climate-led,PROMETHEE II,A1,0.2075,2,0
+semi_urban,dso,climate-led,PROMETHEE II,A2,-0.3055,5,0
+semi_urban,dso,climate-led,PROMETHEE II,A3,-0.1791,4,0
+semi_urban,dso,climate-led,PROMETHEE II,A4,0.4204,1,1
+semi_urban,dso,climate-led,PROMETHEE II,A5,-0.1433,3,0
+semi_urban,dso,resource-led,WSM,A1,0.6219,2,0
+semi_urban,dso,resource-led,WSM,A2,0.4145,4,0
+semi_urban,dso,resource-led,WSM,A3,0.3848,5,0
+semi_urban,dso,resource-led,WSM,A4,0.9852,1,1
+semi_urban,dso,resource-led,WSM,A5,0.4505,3,0
+semi_urban,dso,resource-led,TOPSIS,A1,0.415,2,0
+semi_urban,dso,resource-led,TOPSIS,A2,0.2766,5,0
+semi_urban,dso,resource-led,TOPSIS,A3,0.3059,4,0
+semi_urban,dso,resource-led,TOPSIS,A4,0.9687,1,1
+semi_urban,dso,resource-led,TOPSIS,A5,0.3692,3,0
+semi_urban,dso,resource-led,PROMETHEE II,A1,0.07664,2,0
+semi_urban,dso,resource-led,PROMETHEE II,A2,-0.1879,4,0
+semi_urban,dso,resource-led,PROMETHEE II,A3,-0.245,5,0
+semi_urban,dso,resource-led,PROMETHEE II,A4,0.5365,1,1
+semi_urban,dso,resource-led,PROMETHEE II,A5,-0.1802,3,0
+semi_urban,system,equal,WSM,A1,0.8099,2,0.1262
+semi_urban,system,equal,WSM,A2,0.3403,5,0
+semi_urban,system,equal,WSM,A3,0.8099,2,0.1262
+semi_urban,system,equal,WSM,A4,0.828,1,0.8738
+semi_urban,system,equal,WSM,A5,0.7356,4,0
+semi_urban,system,equal,TOPSIS,A1,0.621,2,0.126
+semi_urban,system,equal,TOPSIS,A2,0.02062,5,0
+semi_urban,system,equal,TOPSIS,A3,0.621,2,0.126
+semi_urban,system,equal,TOPSIS,A4,0.6314,1,0.8739
+semi_urban,system,equal,TOPSIS,A5,0.5778,4,0.0001
+semi_urban,system,equal,PROMETHEE II,A1,0.167,1,0.8185
+semi_urban,system,equal,PROMETHEE II,A2,-0.5071,5,0
+semi_urban,system,equal,PROMETHEE II,A3,0.167,1,0.8185
+semi_urban,system,equal,PROMETHEE II,A4,0.1577,3,0.1815
+semi_urban,system,equal,PROMETHEE II,A5,0.0153,4,0
+semi_urban,system,cost-led operator,WSM,A1,0.9359,1,1
+semi_urban,system,cost-led operator,WSM,A2,0.2583,5,0
+semi_urban,system,cost-led operator,WSM,A3,0.9359,1,1
+semi_urban,system,cost-led operator,WSM,A4,0.7871,3,0
+semi_urban,system,cost-led operator,WSM,A5,0.7387,4,0
+semi_urban,system,cost-led operator,TOPSIS,A1,0.8976,1,1
+semi_urban,system,cost-led operator,TOPSIS,A2,0.0179,5,0
+semi_urban,system,cost-led operator,TOPSIS,A3,0.8976,1,1
+semi_urban,system,cost-led operator,TOPSIS,A4,0.6678,3,0
+semi_urban,system,cost-led operator,TOPSIS,A5,0.6433,4,0
+semi_urban,system,cost-led operator,PROMETHEE II,A1,0.305,1,1
+semi_urban,system,cost-led operator,PROMETHEE II,A2,-0.6646,5,0
+semi_urban,system,cost-led operator,PROMETHEE II,A3,0.305,1,1
+semi_urban,system,cost-led operator,PROMETHEE II,A4,0.08831,3,0
+semi_urban,system,cost-led operator,PROMETHEE II,A5,-0.03374,4,0
+semi_urban,system,climate-led,WSM,A1,0.7937,2,0.0042
+semi_urban,system,climate-led,WSM,A2,0.1563,5,0
+semi_urban,system,climate-led,WSM,A3,0.7937,2,0.0042
+semi_urban,system,climate-led,WSM,A4,0.8452,1,0.9958
+semi_urban,system,climate-led,WSM,A5,0.7515,4,0
+semi_urban,system,climate-led,TOPSIS,A1,0.716,3,0
+semi_urban,system,climate-led,TOPSIS,A2,0.01299,5,0
+semi_urban,system,climate-led,TOPSIS,A3,0.716,3,0
+semi_urban,system,climate-led,TOPSIS,A4,0.7504,1,0.9457
+semi_urban,system,climate-led,TOPSIS,A5,0.7351,2,0.0543
+semi_urban,system,climate-led,PROMETHEE II,A1,0.2065,2,0.4199
+semi_urban,system,climate-led,PROMETHEE II,A2,-0.7064,5,0
+semi_urban,system,climate-led,PROMETHEE II,A3,0.2065,2,0.4199
+semi_urban,system,climate-led,PROMETHEE II,A4,0.2172,1,0.5801
+semi_urban,system,climate-led,PROMETHEE II,A5,0.07627,4,0
+semi_urban,system,resource-led,WSM,A1,0.6219,2,0
+semi_urban,system,resource-led,WSM,A2,0.2042,5,0
+semi_urban,system,resource-led,WSM,A3,0.6219,2,0
+semi_urban,system,resource-led,WSM,A4,0.8952,1,1
+semi_urban,system,resource-led,WSM,A5,0.611,4,0
+semi_urban,system,resource-led,TOPSIS,A1,0.415,3,0
+semi_urban,system,resource-led,TOPSIS,A2,0.00937,5,0
+semi_urban,system,resource-led,TOPSIS,A3,0.415,3,0
+semi_urban,system,resource-led,TOPSIS,A4,0.8106,1,1
+semi_urban,system,resource-led,TOPSIS,A5,0.4367,2,0
+semi_urban,system,resource-led,PROMETHEE II,A1,0.0703,2,0
+semi_urban,system,resource-led,PROMETHEE II,A2,-0.5274,5,0
+semi_urban,system,resource-led,PROMETHEE II,A3,0.0703,2,0
+semi_urban,system,resource-led,PROMETHEE II,A4,0.3945,1,1
+semi_urban,system,resource-led,PROMETHEE II,A5,-0.007671,4,0
+urban,dso,equal,WSM,A1,0.665,2,0
+urban,dso,equal,WSM,A2,0.4385,4,0
+urban,dso,equal,WSM,A3,0.4036,5,0
+urban,dso,equal,WSM,A4,0.7765,1,1
+urban,dso,equal,WSM,A5,0.553,3,0
+urban,dso,equal,TOPSIS,A1,0.5852,2,0
+urban,dso,equal,TOPSIS,A2,0.4657,4,0
+urban,dso,equal,TOPSIS,A3,0.4455,5,0
+urban,dso,equal,TOPSIS,A4,0.6694,1,1
+urban,dso,equal,TOPSIS,A5,0.5287,3,0
+urban,dso,equal,PROMETHEE II,A1,0.1135,2,0
+urban,dso,equal,PROMETHEE II,A2,-0.1492,4,0
+urban,dso,equal,PROMETHEE II,A3,-0.2463,5,0
+urban,dso,equal,PROMETHEE II,A4,0.3198,1,1
+urban,dso,equal,PROMETHEE II,A5,-0.03792,3,0
+urban,dso,cost-led operator,WSM,A1,0.799,1,0.9425
+urban,dso,cost-led operator,WSM,A2,0.5876,3,0
+urban,dso,cost-led operator,WSM,A3,0.2976,5,0
+urban,dso,cost-led operator,WSM,A4,0.7705,2,0.0575
+urban,dso,cost-led operator,WSM,A5,0.3659,4,0
+urban,dso,cost-led operator,TOPSIS,A1,0.7478,1,0.9995
+urban,dso,cost-led operator,TOPSIS,A2,0.6467,3,0
+urban,dso,cost-led operator,TOPSIS,A3,0.295,5,0
+urban,dso,cost-led operator,TOPSIS,A4,0.7274,2,0.0005
+urban,dso,cost-led operator,TOPSIS,A5,0.3155,4,0
+urban,dso,cost-led operator,PROMETHEE II,A1,0.3012,2,0.269
+urban,dso,cost-led operator,PROMETHEE II,A2,0.08445,3,0
+urban,dso,cost-led operator,PROMETHEE II,A3,-0.4114,5,0
+urban,dso,cost-led operator,PROMETHEE II,A4,0.3121,1,0.731
+urban,dso,cost-led operator,PROMETHEE II,A5,-0.2864,4,0
+urban,dso,climate-led,WSM,A1,0.7459,2,0.0021
+urban,dso,climate-led,WSM,A2,0.2946,5,0
+urban,dso,climate-led,WSM,A3,0.5632,4,0
+urban,dso,climate-led,WSM,A4,0.8442,1,0.9979
+urban,dso,climate-led,WSM,A5,0.5977,3,0
+urban,dso,climate-led,TOPSIS,A1,0.7148,2,0.0006
+urban,dso,climate-led,TOPSIS,A2,0.2902,5,0
+urban,dso,climate-led,TOPSIS,A3,0.6424,3,0
+urban,dso,climate-led,TOPSIS,A4,0.8099,1,0.9994
+urban,dso,climate-led,TOPSIS,A5,0.6397,4,0
+urban,dso,climate-led,PROMETHEE II,A1,0.1647,2,0.0002
+urban,dso,climate-led,PROMETHEE II,A2,-0.3842,5,0
+urban,dso,climate-led,PROMETHEE II,A3,-0.09663,4,0
+urban,dso,climate-led,PROMETHEE II,A4,0.3503,1,0.9998
+urban,dso,climate-led,PROMETHEE II,A5,-0.03413,3,0
+urban,dso,resource-led,WSM,A1,0.4979,3,0
+urban,dso,resource-led,WSM,A2,0.2535,5,0
+urban,dso,resource-led,WSM,A3,0.4744,4,0
+urban,dso,resource-led,WSM,A4,0.8108,1,1
+urban,dso,resource-led,WSM,A5,0.5113,2,0
+urban,dso,resource-led,TOPSIS,A1,0.417,4,0
+urban,dso,resource-led,TOPSIS,A2,0.264,5,0
+urban,dso,resource-led,TOPSIS,A3,0.4791,3,0
+urban,dso,resource-led,TOPSIS,A4,0.7401,1,1
+urban,dso,resource-led,TOPSIS,A5,0.4819,2,0
+urban,dso,resource-led,PROMETHEE II,A1,-0.04712,3,0
+urban,dso,resource-led,PROMETHEE II,A2,-0.3363,5,0
+urban,dso,resource-led,PROMETHEE II,A3,-0.06713,4,0
+urban,dso,resource-led,PROMETHEE II,A4,0.4552,1,1
+urban,dso,resource-led,PROMETHEE II,A5,-0.004632,2,0
+urban,system,equal,WSM,A1,0.6551,3,0
+urban,system,equal,WSM,A2,0.2187,5,0
+urban,system,equal,WSM,A3,0.7196,2,0
+urban,system,equal,WSM,A4,0.6024,4,0
+urban,system,equal,WSM,A5,0.8087,1,1
+urban,system,equal,TOPSIS,A1,0.5815,3,0
+urban,system,equal,TOPSIS,A2,0.3313,5,0
+urban,system,equal,TOPSIS,A3,0.6259,2,0
+urban,system,equal,TOPSIS,A4,0.5566,4,0
+urban,system,equal,TOPSIS,A5,0.7315,1,1
+urban,system,equal,PROMETHEE II,A1,0.08335,3,0
+urban,system,equal,PROMETHEE II,A2,-0.5643,5,0
+urban,system,equal,PROMETHEE II,A3,0.1842,2,0
+urban,system,equal,PROMETHEE II,A4,0.009524,4,0
+urban,system,equal,PROMETHEE II,A5,0.2872,1,1
+urban,system,cost-led operator,WSM,A1,0.7797,3,0
+urban,system,cost-led operator,WSM,A2,0.1625,5,0
+urban,system,cost-led operator,WSM,A3,0.8659,1,1
+urban,system,cost-led operator,WSM,A4,0.5014,4,0
+urban,system,cost-led operator,WSM,A5,0.8184,2,0
+urban,system,cost-led operator,TOPSIS,A1,0.7409,3,0
+urban,system,cost-led operator,TOPSIS,A2,0.2032,5,0
+urban,system,cost-led operator,TOPSIS,A3,0.8203,1,1
+urban,system,cost-led operator,TOPSIS,A4,0.5033,4,0
+urban,system,cost-led operator,TOPSIS,A5,0.7651,2,0
+urban,system,cost-led operator,PROMETHEE II,A1,0.2488,3,0
+urban,system,cost-led operator,PROMETHEE II,A2,-0.6988,5,0
+urban,system,cost-led operator,PROMETHEE II,A3,0.36,1,1
+urban,system,cost-led operator,PROMETHEE II,A4,-0.1756,4,0
+urban,system,cost-led operator,PROMETHEE II,A5,0.2655,2,0
+urban,system,climate-led,WSM,A1,0.737,3,0
+urban,system,climate-led,WSM,A2,0.09687,5,0
+urban,system,climate-led,WSM,A3,0.8476,1,1
+urban,system,climate-led,WSM,A4,0.6876,4,0
+urban,system,climate-led,WSM,A5,0.8278,2,0
+urban,system,climate-led,TOPSIS,A1,0.7133,3,0
+urban,system,climate-led,TOPSIS,A2,0.1261,5,0
+urban,system,climate-led,TOPSIS,A3,0.8036,1,0.9982
+urban,system,climate-led,TOPSIS,A4,0.6969,4,0
+urban,system,climate-led,TOPSIS,A5,0.7975,2,0.0018
+urban,system,climate-led,PROMETHEE II,A1,0.1375,3,0
+urban,system,climate-led,PROMETHEE II,A2,-0.7579,5,0
+urban,system,climate-led,PROMETHEE II,A3,0.2908,1,0.9976
+urban,system,climate-led,PROMETHEE II,A4,0.07107,4,0
+urban,system,climate-led,PROMETHEE II,A5,0.2585,2,0.0024
+urban,system,resource-led,WSM,A1,0.4902,4,0
+urban,system,resource-led,WSM,A2,0.08125,5,0
+urban,system,resource-led,WSM,A3,0.7112,1,0.8593
+urban,system,resource-led,WSM,A4,0.6913,3,0.1384
+urban,system,resource-led,WSM,A5,0.7011,2,0.0023
+urban,system,resource-led,TOPSIS,A1,0.4135,4,0
+urban,system,resource-led,TOPSIS,A2,0.1135,5,0
+urban,system,resource-led,TOPSIS,A3,0.5733,2,0
+urban,system,resource-led,TOPSIS,A4,0.6878,1,1
+urban,system,resource-led,TOPSIS,A5,0.5603,3,0
+urban,system,resource-led,PROMETHEE II,A1,-0.06925,4,0
+urban,system,resource-led,PROMETHEE II,A2,-0.6567,5,0
+urban,system,resource-led,PROMETHEE II,A3,0.2548,1,0.829
+urban,system,resource-led,PROMETHEE II,A4,0.2402,2,0.1667
+urban,system,resource-led,PROMETHEE II,A5,0.2309,3,0.0043

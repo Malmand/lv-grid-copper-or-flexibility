@@ -1,0 +1,13 @@
+grid,code,year,scenario,households,transformer_mva,cable_km,cable_type,hp,ev,pv,viol_hours,v_min,v_max,line_max,trafo_max,losses_mwh,curtailed_mwh,battery_throughput_mwh
+rural,1-LV-rural2,2025,central,92,0.25,1.467,NAYY 4x150SE 0.6/1kV,0,0,0,0.0,0.977,1.01,0.301,0.359,8.535,0.0,0.0
+rural,1-LV-rural2,2045,low,92,0.25,1.467,NAYY 4x150SE 0.6/1kV,46,55,23,47.25,0.877,1.035,1.058,1.751,13.516,0.0,0.0
+rural,1-LV-rural2,2045,central,92,0.25,1.467,NAYY 4x150SE 0.6/1kV,69,78,37,156.5,0.809,1.05,1.729,2.639,18.122,0.0,0.0
+rural,1-LV-rural2,2045,high,92,0.25,1.467,NAYY 4x150SE 0.6/1kV,87,87,55,425.75,0.756,1.058,2.152,3.146,23.306,0.0,0.0
+semi_urban,1-LV-semiurb5,2025,central,92,0.63,1.79,NAYY 4x240SE 0.6/1kV,0,0,0,0.0,0.978,1.006,0.305,0.301,15.713,0.0,0.0
+semi_urban,1-LV-semiurb5,2045,low,92,0.63,1.79,NAYY 4x240SE 0.6/1kV,46,55,25,0.0,0.958,1.011,0.684,0.738,17.805,0.0,0.0
+semi_urban,1-LV-semiurb5,2045,central,92,0.63,1.79,NAYY 4x240SE 0.6/1kV,69,78,39,0.5,0.937,1.019,0.966,1.015,19.782,0.0,0.0
+semi_urban,1-LV-semiurb5,2045,high,92,0.63,1.79,NAYY 4x240SE 0.6/1kV,87,87,57,2.75,0.926,1.024,1.115,1.164,21.843,0.0,0.0
+urban,1-LV-urban6,2025,central,102,0.63,1.078,NAYY 4x240SE 0.6/1kV,0,0,0,0.0,0.982,1.0,0.275,0.306,15.978,0.0,0.0
+urban,1-LV-urban6,2045,low,102,0.63,1.078,NAYY 4x240SE 0.6/1kV,51,61,25,0.0,0.956,1.005,0.861,0.825,17.789,0.0,0.0
+urban,1-LV-urban6,2045,central,102,0.63,1.078,NAYY 4x240SE 0.6/1kV,76,87,40,1.5,0.941,1.012,1.06,1.107,19.521,0.0,0.0
+urban,1-LV-urban6,2045,high,102,0.63,1.078,NAYY 4x240SE 0.6/1kV,97,97,60,6.75,0.931,1.017,1.225,1.32,21.309,0.0,0.0
